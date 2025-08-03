@@ -1,0 +1,105 @@
+{
+    "elementos-nav": {
+        "main": "Home",
+        "packages": "Plans <i id='sas' style='opacity: 0;' class=' fa-solid fa-briefcase'></i>",
+        "contact": "Contact <i id='sas' style='opacity: 0;' class=' fa-solid fa-envelope'></i>",
+        "who we are": "A Web Site? <i id='sas' style='opacity: 0;' class='fa-solid fa-pager'></i>"
+    },
+
+    "welcomeSec": {
+        "slogan": "Boost your online presence with our development, turning visitors into customers <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+    },
+
+    "secWeb": {
+        "title": "Why have a Website?",
+        "description": "In today's digital age, having <span style='color: #8e00d4;'> a website is essential for any business.</span> It is the online presentation card that can make the difference between success and failure. A well-designed and user-friendly website can attract new customers, increase sales, and strengthen the brand.<br>A website <span style='color: #8e00d4;'>allows you to be available 24 hours a day</span>, seven days a week, reaching potential customers worldwide. In addition, it provides the opportunity to showcase products and services attractively, offer detailed information, and answer frequently asked questions, all in one place.<br>Moreover, a well-optimized website can improve search engine rankings, which means more people can find your business online.<br>This can translate into a <span style='color: #8e00d4;'>significant increase in visibility, profit, and brand credibility.</span>"
+    },
+
+    "comoTrabajamos": {
+        "title": "Your Custom Website",
+        "description": "At <span style='font-weight: bold;'>Intellidev</span>, we are dedicated to developing websites tailored to each user's needs, providing them with a unique experience. As web design specialists, we focus on creating adaptable and scalable sites that function optimally on any device, whether it be a mobile phone, a tablet, or a desktop computer. Additionally, we incorporate interactive and personalized features to enhance the user experience, ensuring their satisfaction and engagement.",
+        "boton":"Tell us about your project",
+        "responsiveDesc": "Your website <span>must adapt to all devices</span> for an optimal browsing experience. We ensure that every element looks good on any screen, maintaining structure and order for a perfect display.",
+        "manageable": "<i class='fa-solid fa-sliders'></i> Manageable",
+        "manageableDesc": "Once online, you can easily manage your website. This advantage is crucial, as periodic updates are often needed, such as price adjustments, new items, or content updates.",
+        "scalability": "<i class='fa-solid fa-chart-simple'></i> Scalability",
+        "scalabilityDesc": "We design websites with scalability in mind, ready to incorporate new functionalities as your business evolves.",
+        "design": "<i class='fa-solid fa-palette'></i> Design",
+        "designDesc": "Our web design focuses on creating an exceptional user experience. We effectively integrate your brand's branding into the page layout, using graphic resources, typography, and icons to ensure a smooth and attractive interaction."
+    },
+
+    "procesoDeTrabajo": {
+        "title": "Our Work Process",
+        "description": "We understand the importance of our clients feeling safe and confident throughout the development process of their project. That's why we have designed a transparent and structured approach that guarantees quality and efficiency at every stage. Below, we detail our work process:",
+        "card1title": "Initial Consultation",
+        "card1desc": "We meet with the client via video call or in person to understand their needs and objectives. We discuss initial ideas and set project expectations.",
+        "card2title": "Research and Planning",
+        "card2desc": "We conduct detailed project planning. This includes defining the scope, creating a timeline, and allocating resources.",
+        "card3title": "Design",
+        "card3desc": "We develop prototypes and mockups to visualize the final design. We ensure that the design is attractive, functional, and aligned with the client's brand identity.",
+        "card4title": "Development",
+        "card4desc": "We build the project using the latest technologies and best practices. We maintain constant communication with the client to ensure we are on the same page. (The use of technologies depends on the type of project)",
+        "card5title": "Testing and Review",
+        "card5desc": "We test the project on different devices and browsers to ensure quality. We make necessary revisions based on client feedback.",
+        "card6title": "Launch",
+        "card6desc": "We implement the site deployment on a hosting service according to your requirements and ensure a smooth transition. We provide post-launch support to address any issues that may arise."
+    },
+
+    "planes": {
+        "title": "Plans",
+        "description": "Discover our plans and learn about the different types of websites. Use it as a guide to make the best decision!",
+        "hostdom":"<span style='color: #8e00d4;'>1</span> year of <span style='color: #8e00d4;'>Hosting and Free Domain</span> included in each plan",
+        "description2": "(Prices are representative; they may vary depending on the number of elements requested for the page)",
+        "card1Title": "<i class='fa-solid fa-handshake-angle'></i> Corporate Web",
+        "card1Desc": "Corporate websites are sites designed to represent a company online and communicate its identity, products, services, and values to its audience. They usually include information about the company's history, mission, and vision, as well as contact details and links to social media. These websites can also include sections on their products or services, customer testimonials, and/or job opportunities. Their main goal is to strengthen the company's online presence and improve its corporate image.",
+        "card2Title": "<i class='fa-solid fa-bullseye'></i> Landing Page",
+        "card2Desc": "A landing page is a web page designed specifically to convert visitors into potential customers. These pages are often part of a digital marketing strategy and are optimized for a specific action, such as filling out a form, making a purchase, or downloading a resource. They are carefully structured to capture the user's attention and guide them towards the desired action through attractive design, relevant content, and clear calls to action.",
+        "card3Title": "<i class='fa-solid fa-cart-shopping'></i> Online Store",
+        "card3Desc": "Online stores, also known as virtual or online stores, are websites designed to allow users to purchase products or services directly over the Internet. These stores usually offer a wide variety of products, ranging from clothing and electronics to digital services and subscriptions. They allow customers to make purchases conveniently and quickly, without having to leave home, and at any time of the day.",
+        "card4Title": "<i class='fa-solid fa-user'></i> Brochure/Presentation Type",
+        "card4Desc": "These are websites that present information similarly to a printed brochure. These websites usually contain all relevant information on a single page. Brochure-type pages are often used to promote a specific product or service or to present concise information about a company or event. They typically have an attractive and visually impactful design, with a clear focus on the main content they want to communicate.",
+        "serviceMant": "Maintenance",
+        "serviceMantDesc": "We offer an optional monthly maintenance service that guarantees constant monitoring of your site 24 hours a day. We ensure that your website functions correctly and optimally, making necessary adjustments and updates to keep it in perfect condition. With our service, you can rest assured knowing that your website is in good hands and operating as it should at all times.",
+        "card5Title": "<i class='fa-solid fa-gears'></i> Maintenance Service Pack",
+        "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Constant monitoring:</span> Our team will monitor your website for any problems or technical failures, ensuring its proper functioning at all times.<span style='color: #8e00d4; font-weight: 500;'><br>Priority technical support:</span> You will receive personalized and priority attention in case of any technical problem or query related to your website.<span style='color: #8e00d4; font-weight: 500;'><br>Automatic backups:</span> We perform periodic backups of your website to protect your data in case of loss or damage."
+    },
+
+    "whoWeAre": {
+        "title": "Who are we?",
+        "description": "We are a startup dedicated to developing websites both nationally and internationally, providing creative and effective solutions for your needs. Our approach focuses on offering a quality service at an affordable price, ensuring that each client receives a personalized solution that meets their specific requirements. Whether you need a website for your business, personal project, or online store, we are here to help you achieve your goals. We are located in Argentina, Buenos Aires City. From here, we work with passion, dedication, and professionalism to offer you the best results. Our team consists of experts in web design, application development, and digital marketing, ready to take your online presence to the next level. At <span style='font-weight: bold; color: black;'>Intellidev</span>, we believe in the importance of collaboration and constant communication with our clients. We are committed to working hand in hand with you to understand your needs and offer solutions that exceed your expectations.",
+        "signature": "Developer"
+    },
+
+    "contactUs": {
+        "title": "Contact Us",
+        "description": "We are here to help you turn your idea into reality. You can contact us to share your project, ask general questions, or request a quote. We are listening!",
+        "slogan": "We are dedicated to being your ally in materializing your ideas and clarifying your doubts. We are here to provide you with all our support and experience. <br> <span style='color: #8e00d4;'>Contact us today to start working together!</span>",
+        "name": "Name",
+        "email": "Email",
+        "tel": "Phone (optional)",
+        "idea": "Show us your idea or question",
+        "sent": "<i class='fa-regular fa-envelope'></i> Send"
+    },
+
+    "chatbot": {
+        "title": "Online Assistant"
+    },
+
+    "footer": {
+        "contactus": "<i class='fa-solid fa-envelope'></i> Contact",
+        "contactForm": "Contact Form",
+        "contactTel": "Mobile: (+54) 11 3150-6458",
+        "contactMail": "Email: francobusch130@gmail.com",
+        "planes": "<i class='fa-solid fa-briefcase'></i> Plans",
+        "planesCorWeb": "Corporate Web",
+        "planesLandind": "Landing Page",
+        "planesShop": "Online Store",
+        "planesIntro": "Brochure/Presentation Type",
+        "whoWeAre": "Who are we?",
+        "howWeWork": "How we work your Website",
+        "packages": "Plans",
+        "whyWebSite": "Why a website?",
+        "workProcess": "Work Process",
+        "agency": "© 2024 Intellidev, Agency"
+    }
+}

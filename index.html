@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página para desarrollos web, donde ofrecemos servicios de desarrollo de aplicaciones web como desktop y móviles">
+    <link rel="icon" href="Css/img/logo2.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollos Web | Intelli.dev</title>
+</head>
+<body>
+    <header id="inicio" class="align-items-center d-flex justify-content-around" style="background-color: white;">
+        <a href="index.html"><img style="width: 6.5rem;" src="Css/img/logo.webp" alt=""></a>
+         <div id="contenedor-Nav">
+            <ul class="nav nav-pills d-flex justify-content-around" id="elementos-nav">
+                <li class="nav-item dropdown-container">
+                    <select id="opciones" class="dropdown" onchange="handleDropdownChange()">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                        <option value="pr">Português</option>
+                    </select>
+                </li>
+               <li class="nav-item"><a href="#welcomeSec-Conteiner" class="nav-link active" id="btn-inicio" data-section="elementos-nav" data-value="main">Inicio</a></li>
+               <li class="nav-item"><a href="#planes-titulo" class="nav-link" id="a" data-section="elementos-nav" data-value="packages">Planes <i id="sas" style="opacity: 0;" class=" fa-solid fa-briefcase"></i></a></li>
+               <li class="nav-item"><a href="#contact-Title" class="nav-link" id="a" data-section="elementos-nav" data-value="contact">Contacto <i id="sas" style="opacity: 0;" class=" fa-solid fa-envelope"></i></a></li>
+               <li class="nav-item"><a href="webs.html" class="nav-link" id="a" data-section="elementos-nav" data-value="who we are">¿Una página web? <i id="sas" style="opacity: 0;" class="fa-solid fa-pager"></i></a></li>
+            </ul>
+           </div>
+    </header>
+
+
+
+    <div id="welcomeSec-Conteiner">
+     <div class="container d-flex justify-content-center align-items-center" id="slogan-Conteiner">
+        <img id="welcomeSec-logo" style="width: 50vh;" src="Css/img/logo2.webp" alt="">
+        <h2 id="slogan" data-section="welcomeSec" data-value="slogan">Eleva tu presencia en línea con nuestro desarrollo, convirtiendo visitantes en clientes <i class="fa-solid fa-chart-line"></i> <i class="fa-regular fa-face-laugh-wink"></i></h2>
+     </div>
+    </div>
+
+
+
+
+    <div id="comoTrabajamos-background">
+    <div>
+        <div class="text-center" id="comoTrabajamos-titulo">
+            <h2 data-section="comoTrabajamos" data-value="title">Tu Página Web a medida</h2>
+            <hr>
+        </div>
+        <div class="mt-4">
+            <div class="container">
+                <p id="comoTrabajamos-desc"  data-section="comoTrabajamos" data-value="description">En <span style="font-weight: bold;">Intellidev</span> nos encargamos de desarrollar sitios web adaptados a las necesidades de cada usuario brindándole una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.</p>
+                <a href="#contact-Title"><button id="btn-comotrabajamos" data-section="comoTrabajamos" data-value="boton">Cuéntanos sobre tu proyecto</button></a>
+            </div>
+            <hr style="color: white;">
+        </div>
+       <div class="d-flex" id="contenedor-comotrabajamos">
+        <div>
+            <div class="comoTrabajamos-imagen">
+                <img src="Css/img/howwork.webp" alt="Imagen">
+            </div>
+        </div>
+        <div id="comoTrabajamos-Cards">
+            <div class="row justify-content-center" style="margin-left: 0;">
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold; text-shadow: #00000083 0px 4px 1px;"><i class="fa-solid fa-mobile-screen-button"></i> Responsive</h3>
+                    <p data-section="comoTrabajamos" data-value="responsiveDesc">Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.</p>
+                </div>
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold; text-shadow: #00000083 0px 4px 1px;" data-section="comoTrabajamos" data-value="manageable"><i class="fa-solid fa-sliders"></i> Administrables</h3>
+                    <p data-section="comoTrabajamos" data-value="manageableDesc">Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-left: 0;">
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold; text-shadow: #00000083 0px 4px 1px;" data-section="comoTrabajamos" data-value="scalability"><i class="fa-solid fa-chart-simple" ></i> Escalable</h3>
+                    <p data-section="comoTrabajamos" data-value="scalabilityDesc">Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.</p>
+                </div>
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold; text-shadow: #00000083 0px 4px 1px;"  data-section="comoTrabajamos" data-value="design" ><i class="fa-solid fa-palette"></i> Diseño</h3>
+                    <p data-section="comoTrabajamos" data-value="designDesc">Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva.</p>
+                </div>
+            </div>
+        </div>
+      </div>  
+    </div>
+</div>
+
+
+
+<div id="proceso-de-trabajo" class="proceso-trabajo-container mb-5 mt-5">
+    <div class="proceso-trabajo">
+        <h2 data-section="procesoDeTrabajo" data-value="title">Nuestro Proceso de Trabajo</h2>
+        <hr>
+        <p class="container text-center" id="proceso-desc" data-section="procesoDeTrabajo" data-value="description">Comprendemos la importancia de que nuestros clientes se sientan seguros y confiados durante todo el proceso de desarrollo de su proyecto. Por eso, hemos diseñado un enfoque transparente y estructurado que garantiza la calidad y la eficiencia en cada etapa. A continuación, te detallamos nuestro proceso de trabajo:</p>
+        <ol id="proceso-container" class="grid-container">
+            <li class="lista-proceso">
+                <i class="fas fa-user-check icono"></i>
+                <h3 data-section="procesoDeTrabajo" data-value="card1title">Consulta Inicial</h3>
+                <p data-section="procesoDeTrabajo" data-value="card1desc">Nos reunimos con el cliente vía videollamada o en persona para entender sus necesidades y objetivos. Discutimos las ideas iniciales y establecemos las expectativas del proyecto.</p>
+            </li>
+            <li class="lista-proceso">
+                <i class="fas fa-search icono"></i>
+                <h3 data-section="procesoDeTrabajo" data-value="card2title">Investigación y Planificación</h3>
+                <p data-section="procesoDeTrabajo" data-value="card2desc">Realizamos la planificación del proyecto en detalle. Esto incluye la definición del alcance, la creación de un cronograma y la asignación de recursos.</p>
+            </li>
+            <li class="lista-proceso">
+                <i class="fas fa-pencil-ruler icono"></i>
+                <h3 data-section="procesoDeTrabajo" data-value="card3title">Diseño</h3>
+                <p data-section="procesoDeTrabajo" data-value="card3desc">Desarrollamos prototipos y maquetas para visualizar el diseño final. Nos aseguramos de que el diseño sea atractivo, funcional y alineado con la identidad de la marca del cliente.</p>
+            </li>
+            <li class="lista-proceso">
+                <i class="fas fa-code icono"></i>
+                <h3 data-section="procesoDeTrabajo" data-value="card4title">Desarrollo</h3>
+                <p data-section="procesoDeTrabajo" data-value="card4desc">Construimos el proyecto utilizando las últimas tecnologías y prácticas recomendadas. Mantenemos una comunicación constante con el cliente para asegurarnos de que estamos en la misma página. (El uso de tecnologías depende del tipo de proyecto)</p>
+            </li>
+            <li class="lista-proceso">
+                <i class="fas fa-vials icono"></i>
+                <h3 data-section="procesoDeTrabajo" data-value="card5title">Pruebas y Revisión</h3>
+                <p data-section="procesoDeTrabajo" data-value="card5desc">Probamos el proyecto en diferentes dispositivos y navegadores para garantizar su calidad. Realizamos las revisiones necesarias basadas en el feedback del cliente.</p>
+            </li>
+            <li class="lista-proceso">
+                <i class="fas fa-rocket icono"></i>
+                <h3 data-section="procesoDeTrabajo" data-value="card6title">Lanzamiento</h3>
+                <p data-section="procesoDeTrabajo" data-value="card6desc">Implementamos el despliegue del sitio en un servicio de hosting conforme a tus requerimientos y aseguramos una transición sin problemas. Proporcionamos soporte post-lanzamiento para resolver cualquier problema que pueda surgir.</p>
+            </li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+<div class="mb-1 mt-5  text-center">
+    <div class="container" id="planes-titulo">
+        <h2 data-section="planes" data-value="title">Planes</h2>
+        <hr id="planes-hr">
+        <p style="color: rgb(90, 90, 90);" data-section="planes" data-value="description">Descubre nuestros planes y conoce los diferentes tipos de páginas web. ¡Úsalo de guía para tomar la mejor decisión!</p>
+        <hr>
+    </div>
+    <p id="planes-desc2" class="text-center mb-5" data-section="planes" data-value="description2">(Los precios son representativos, estos pueden variar o no dependiendo de la cantidad de elementos solicitados para la página)</p>
+    <h4 id="hostdom" data-section="planes" data-value="hostdom"><span style="color: #8e00d4;">1</span> año de <span style="color: #8e00d4;">Hosting y Dominio gratuito</span> incluído en cada plan</h4>
+    <div class="d-flex justify-content-around text-center flex-wrap" id="planes-conteiner">
+        <div onclick="transferToForm('Web Corporativa')">
+            <div class="card" style="border: none;">
+                <img src="Css/img/corporativeweb.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bordesito" data-section="planes" data-value="card1Title"><i class="fa-solid fa-handshake-angle"></i> Web Corporativa</h5>
+                  <p class="card-text" data-section="planes" data-value="card1Desc">Las webs corporativas son sitios diseñados para representar a una empresa en línea y comunicar su identidad, productos, servicios y valores a su audiencia. Suelen incluir información sobre la historia de la empresa, su misión y visión, así como detalles de contacto y enlaces a sus redes sociales. Estas webs también pueden incluir secciones sobre sus productos o servicios, testimonios de clientes y/o oportunidades de empleo. Su objetivo principal es fortalecer la presencia en línea de la empresa y mejorar su imagen corporativa.</p>
+                </div>
+                <p class="precios">$550 USD / $550.000 ARS</p>
+              </div>
+        </div>
+        <div onclick="transferToForm('Landind Page')">
+            <div class="card" style="border: none;">
+                <img src="Css/img/landindpage.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bordesito" data-section="planes" data-value="card2Title"><i class="fa-solid fa-bullseye"></i> Landind Page</h5>
+                  <p class="card-text" data-section="planes" data-value="card2Desc">Una landing page, o página de destino, es una página web diseñada específicamente para convertir a los visitantes en clientes potenciales. Estas páginas suelen ser parte de una estrategia de marketing digital y están optimizadas para una acción específica, como completar un formulario, hacer una compra o descargar un recurso. Además, están cuidadosamente estructuradas para captar la atención del usuario y guiarlo hacia la acción deseada mediante un diseño atractivo, contenido relevante y llamadas a la acción claras.</p>
+                </div>
+                <p class="precios">$300 USD / $300.000 ARS</p>
+              </div>
+        </div>
+        <div onclick="transferToForm('Tienda Online')">
+            <div class="card" style="border: none;">
+                <img src="Css/img/onlineshop.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bordesito" data-section="planes" data-value="card3Title"><i class="fa-solid fa-cart-shopping"></i> Tienda Online</h5>
+                  <p class="card-text" data-section="planes" data-value="card3Desc">Las tiendas online, también conocidas como tiendas virtuales o tiendas en línea, son sitios web diseñados para permitir a los usuarios comprar productos o servicios directamente a través de Internet. Estas tiendas suelen ofrecer una amplia variedad de productos, que pueden ir desde ropa y electrónica hasta servicios digitales y suscripciones. Además, permiten a los clientes realizar compras de manera cómoda y rápida, sin necesidad de salir de casa, y en cualquier momento del día.</p>
+                </div>
+                <P class="precios">$650 USD / $650.000 ARS</P>
+              </div>
+        </div>
+        <div onclick="transferToForm('Tipo Folleto/Presentación')">
+            <div class="card" style="border: none;">
+                <img src="Css/img/folleto.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bordesito" data-section="planes" data-value="card4Title"><i class="fa-solid fa-user"></i> Tipo Folleto/Presentación</h5>
+                  <p class="card-text" data-section="planes" data-value="card4Desc">Son sitios web que presentan información de manera similar a un folleto impreso. Estas webs suelen contener toda la información relevante en una sola página.
+                    Las páginas tipo folleto suelen utilizarse para promocionar un producto o servicio específico, o para presentar información concisa sobre una empresa o un evento. Suelen tener un diseño atractivo y visualmente impactante, con un enfoque claro en el contenido principal que se quiere comunicar.</p>
+                </div>
+                <p class="precios">$270 USD / $270.000 ARS</p>
+             </div>
+        </div>
+    </div>
+</div>
+<div class="container d-flex justify-content-center align-items-center text-center flex-wrap" onclick="transferToForm('Mantenimiento')" style="width: 100%;">
+    <hr>
+    <h3 class="mt-5" style="font-weight: bold; color: #3a3a3a;" data-section="planes" data-value="serviceMant">Mantenimiento</h3>
+    <p class="mt-4 mb-5" id="mantenimiento-desc" data-section="planes" data-value="serviceMantDesc">Ofrecemos un servicio mensual opcional de mantenimiento que garantiza el monitoreo constante de su sitio las 24 horas del día. Nos encargamos de asegurar que su web funcione correctamente y de manera óptima, realizando ajustes y actualizaciones necesarias para mantenerla en perfecto estado. Con nuestro servicio, usted puede estar tranquilo sabiendo que su página web está en buenas manos y funcionando como debe en todo momento.</p>
+    <div class="d-flex justify-content-center align-items-center" id="mantenimiento-conteiner">
+        <div>
+            <img id="mant-imagen" src="Css/img/mantenimientoimg.webp" style="width: 50vh; box-shadow: rgba(0, 0, 0, 0.199) 0px 0px 15px;" alt="">
+        </div>
+        <div class="p-4">
+            <div class="card-body">
+                <h5 class="card-title mb-3 bordesito" data-section="planes" data-value="card5Title"><i class="fa-solid fa-gears"></i> Pack Servicio de Mantenimiento</h5>
+                <p class="card-text" data-section="planes" data-value="card5Desc"><span style="color: #8e00d4; font-weight: 500;">Monitoreo constante:</span> Nuestro equipo supervisará su página web en busca de cualquier problema o fallo técnico, asegurando su correcto funcionamiento en todo momento.
+                    <span style="color: #8e00d4; font-weight: 500;"><br>Soporte técnico prioritario:</span> Usted recibirá atención personalizada y prioritaria en caso de cualquier problema técnico o consulta relacionada con su página web.
+                    <span style="color: #8e00d4; font-weight: 500;"><br>Copias de seguridad automáticas:</span> Realizamos copias de seguridad periódicas de su sitio web para proteger sus datos en caso de pérdida o daño.
+                </p>
+                <p class="precios" style="font-size: 1.3rem; bottom: 0;">$150 USD / $150.000 ARS</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="who-background" class="pb-5">
+    <div class="container">
+      <div class="mb-2" id="who-titulo">
+          <h2 class="text-center" style="color: white;" data-section="whoWeAre" data-value="title">Quienes somos?</h2>
+          <hr>
+      </div>
+      <div class="d-flex justify-content-around align-items-center mb-5" id="who-conteiner">
+          <div >
+              <img  id="who-imagen" src="Css/img/secquiensomos.webp" alt="">
+          </div>
+      
+          <div class="text-end">
+              <p class="p-3" id="who-text" data-section="whoWeAre" data-value="description">
+              Somos una Startup dedicada al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades.
+              <br>
+              Nuestro enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estamos aquí para ayudarte a alcanzar tus objetivos.
+              <br>
+              Nos encontramos ubicados en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajamos con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Nuestro equipo está formado por expertos en diseño web, desarrollo de aplicaciones y marketing digital, listos para llevar tu presencia en línea al siguiente nivel.
+              <br>
+              En <span style="font-weight: bold; color: black;">Intellidev</span>, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.
+              </p>
+              <p style="line-height: 1.1rem;" ><span style="font-family: Yellowtail, cursive; font-size: x-large;">Franco Busch</span><br> <span style="font-size: small;" data-section="whoWeAre" data-value="signature">Desarrollador</span></p>
+          </div>
+      </div>
+   </div>
+  </div>
+
+
+
+<div class="container" id="contact-Title">
+    <h2 class="text-center" data-section="contactUs" data-value="title">Contáctanos</h2>
+    <hr>
+    <p id="contact-desc" style="color: rgb(90, 90, 90);" data-section="contactUs" data-value="description">Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!</p>
+</div>
+<div class="container d-flex justify-content-around align-items-center" id="contactSection">
+    <div>
+        <h2 id="contact-desc2" data-section="contactUs" data-value="slogan">
+            Nos dedicamos a ser tu aliado en la materialización de tus ideas y en la clarificación de tus dudas. Queremos brindarte nuestro apoyo y experiencia. <br> <span style="color: #8e00d4;">¡Contáctanos hoy mismo para empezar a trabajar juntos!</span> 
+        </h2>
+    </div>
+    <div id="contactForm-Background" class="text-center">
+        <form action="https://formspree.io/f/xgegqkgo" method="POST" id="contact-form">
+            <div class="form-group">
+              <label for="nombre" data-section="contactUs" data-value="name">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="name" placeholder="Ej: Jonathan" required>
+            </div>
+            <div class="form-group">
+              <label for="email" data-section="contactUs" data-value="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Ej: email@gmail.com" required>
+            </div>
+            <div class="form-group">
+              <label for="tel" data-section="contactUs" data-value="tel">Teléfono (opcional)</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ej: (+54) 1131506458">
+            </div>
+            <div class="form-group">
+              <label for="mensaje" data-section="contactUs" data-value="idea">Enseñanos tu idea o tu consulta</label>
+              <textarea type="text" class="form-control" id="mensaje" name="consulta" rows="3" required></textarea>
+            </div>
+            <button type="submit" id="btn-enviar" style="border-radius: 0.6rem; font-weight: 500; font-size: large;" data-section="contactUs" data-value="sent"><i class="fa-regular fa-envelope"></i> Enviar</button>
+
+            <input type="hidden" name="_next" value="http://localhost:8000">
+          </form>
+    </div>
+</div>
+
+
+
+
+    <footer style="background-color: white;">
+    <div class="container">    
+        <div class="d-flex flex-wrap" id="footer-secciones">
+            <div class="me-auto p-2">
+                <img style="width: 100%;" src="Css/img/logo.webp" alt="">
+            </div>
+            <div class="p-2 footer-list">
+                <h2 style="color: #3a3a3a;" data-section="footer" data-value="contactus"><i class="fa-solid fa-envelope"></i> Contacto</h2>
+                <a href="#contact-Title" data-section="footer" data-value="contactForm">Formulario de Contacto</a>
+                <p data-section="footer" data-value="contactTel">Movil: (+54) 11 3150-6458</p>
+                <p data-section="footer" data-value="contactMail">Correo: contacto@buschfranco.com</p>
+                <p>Adrogué, Buenos Aires. Argentina</p>
+            </div>
+            <div class="p-2 footer-list">
+                <h2 style="color: #3a3a3a;" data-section="footer" data-value="planes"><i class="fa-solid fa-briefcase"></i> Planes</h2>
+                <a href="#planes-titulo" data-section="footer" data-value="planesCorWeb">Web Corporativa</a>
+                <a href="#planes-titulo" data-section="footer" data-value="planesLandind">Landind Page</a>
+                <a href="#planes-titulo" data-section="footer" data-value="planesShop">Tienda Online</a>
+                <a href="#planes-titulo" data-section="footer" data-value="planesIntro">Tipo Folleto/Presentación</a>
+            </div>
+            <div class="p-2 footer-list" id="foot-empresa">
+                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-users"></i> Intellidev</h2>
+                <a href="#who-titulo" data-section="footer" data-value="whoWeAre">Quienes somos?</a>
+                <a href="#comoTrabajamos-titulo" data-section="footer" data-value="howWeWork">Como trabajamos tu Página Web</a>
+                <a href="#planes-titulo" data-section="footer" data-value="packages">Planes</a>
+                <a href="webs.html" data-section="footer" data-value="whyWebSite">Por qué una página web?</a>
+                <a href="#proceso-de-trabajo" data-section="footer" data-value="workProcess">Proceso de trabajo</a>
+            </div>
+        </div>
+        <div class="border-top p-3">
+          <span class="text-body-secondary" data-section="footer" data-value="agency">© 2024 Intellidev, Agencia</span>
+        </div>
+    </div>
+      </footer>
+      <div id="chatbot">
+        <div id="chatbot-header" onclick="toggleChat()" class="d-flex justify-content-between align-items-center">
+            <h5 id="chatbot-title" class="text-start" data-section="chatbot" data-value="title">Asistentes en Linea</h5>
+            <p class="m-0">🟢</p>
+        </div>
+        <div id="chatbot-body" class="visible">
+            <iframe id="chatbot-chat"
+                src="https://www.chatbase.co/chatbot-iframe/2JOdCymMabN1vCiyUg7ZO"
+                title="Chatbot"
+                width="100%"
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+            
+      <script src="Js/app.js" defer></script>
+      <script src="https://kit.fontawesome.com/55ffb50638.js" crossorigin="anonymous"></script>
+</body>
+</html>

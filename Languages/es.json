@@ -1,0 +1,110 @@
+{
+    "elementos-nav":{
+        "main": "Inicio",
+        "packages": "Planes <i id='sas' style='opacity: 0;' class=' fa-solid fa-briefcase'></i>",
+        "contact": "Contacto <i id='sas' style='opacity: 0;' class=' fa-solid fa-envelope'></i>",
+        "who we are": "¿Una página web? <i id='sas' style='opacity: 0;' class='fa-solid fa-pager'></i>"
+    },
+
+    "welcomeSec":{
+        "slogan":"Eleva tu presencia en línea con nuestro desarrollo, convirtiendo visitantes en clientes. <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+    },
+
+    "secWeb": {
+        "title":"Por qué tener una Página Web?",
+        "description":"En la era digital actual, tener <span style='color: #8e00d4;'> una página web es fundamental para cualquier negocio.</span> Es la carta de presentación en línea que puede marcar la diferencia entre el éxito y el fracaso. Una página web bien diseñada y fácil de usar puede atraer a nuevos clientes, aumentar las ventas y fortalecer la marca.<br>Una página web <span style='color: #8e00d4;'>te permite estar disponible las 24 horas del día</span>, los 7 días de la semana, llegando a clientes potenciales en todo el mundo. Además, brinda la oportunidad de mostrar productos y servicios de manera atractiva, ofrecer información detallada y responder preguntas frecuentes, todo en un solo lugar.<br>Además, una página web bien optimizada puede mejorar el posicionamiento en los motores de búsqueda, lo que significa que más personas podrán encontrar tu negocio en línea.<br>Esto puede traducirse en un <span style='color: #8e00d4;'>aumento significativo de la visibilidad, ganancia y credibilidad de la marca.</span>"
+    },
+
+    "comoTrabajamos":{
+        "title":"Tu Página Web a medida",
+        "description":"En <span style='font-weight: bold;'>Intellidev</span> nos encargamos de desarrollar sitios web adaptados a las necesidades de cada usuario brindándole una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.",
+        "boton":"Cuéntanos sobre tu proyecto",
+        "responsiveDesc":"Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.",
+        "manageable":"<i class='fa-solid fa-sliders'></i> Administrables",
+        "manageableDesc":"Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.",
+        "scalability":"<i class='fa-solid fa-chart-simple' ></i> Escalable",
+        "scalabilityDesc":"Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.",
+        "design":"<i class='fa-solid fa-palette'></i> Diseño",
+        "designDesc":"Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva."
+    },
+
+    "procesoDeTrabajo": {
+        "title":"Nuestro Proceso de Trabajo",
+        "description": "Comprendemos la importancia de que nuestros clientes se sientan seguros y confiados durante todo el proceso de desarrollo de su proyecto. Por eso, hemos diseñado un enfoque transparente y estructurado que garantiza la calidad y la eficiencia en cada etapa. A continuación, te detallamos nuestro proceso de trabajo:",
+        "card1title":"Consulta Inicial",
+        "card1desc":"Nos reunimos con el cliente vía videollamada o en persona para entender sus necesidades y objetivos. Discutimos las ideas iniciales y establecemos las expectativas del proyecto.",
+        "card2title":"Investigación y Planificación",
+        "card2desc":"Realizamos la planificación del proyecto en detalle. Esto incluye la definición del alcance, la creación de un cronograma y la asignación de recursos.",
+        "card3title":"Diseño",
+        "card3desc":"Desarrollamos prototipos y maquetas para visualizar el diseño final. Nos aseguramos de que el diseño sea atractivo, funcional y alineado con la identidad de la marca del cliente.",
+        "card4title":"Desarrollo",
+        "card4desc":"Construimos el proyecto utilizando las últimas tecnologías y prácticas recomendadas. Mantenemos una comunicación constante con el cliente para asegurarnos de que estamos en la misma página. (El uso de tecnologías depende del tipo de proyecto)",
+        "card5title":"Pruebas y Revisión",
+        "card5desc":"Probamos el proyecto en diferentes dispositivos y navegadores para garantizar su calidad. Realizamos las revisiones necesarias basadas en el feedback del cliente.",
+        "card6title":"Lanzamiento",
+        "card6desc":"Implementamos el despliegue del sitio en un servicio de hosting conforme a tus requerimientos y aseguramos una transición sin problemas. Proporcionamos soporte post-lanzamiento para resolver cualquier problema que pueda surgir."
+    },
+
+    "planes":{
+        "title":"Planes",
+        "description":"Descubre nuestros planes y conoce los diferentes tipos de páginas web. ¡Úsalo de guía para tomar la mejor decisión!",
+        "hostdom":"<span style='color: #8e00d4;'>1</span> año de <span style='color: #8e00d4;'>Hosting y Dominio gratuito</span> incluído en cada plan",
+        "description2":"(Los precios son representativos, estos pueden variar o no dependiendo de la cantidad de elementos solicitados para la página)",
+        "card1Title":"<i class='fa-solid fa-handshake-angle'></i> Web Corporativa",
+        "card1Desc":"Las webs corporativas son sitios diseñados para representar a una empresa en línea y comunicar su identidad, productos, servicios y valores a su audiencia. Suelen incluir información sobre la historia de la empresa, su misión y visión, así como detalles de contacto y enlaces a sus redes sociales. Estas webs también pueden incluir secciones sobre sus productos o servicios, testimonios de clientes y/o oportunidades de empleo. Su objetivo principal es fortalecer la presencia en línea de la empresa y mejorar su imagen corporativa.",
+        "card1Price":"$200 USD / $200.000 ARS",
+        "card2Title":"<i class='fa-solid fa-bullseye'></i> Landind Page",
+        "card2Desc":"Una landing page, o página de destino, es una página web diseñada específicamente para convertir a los visitantes en clientes potenciales. Estas páginas suelen ser parte de una estrategia de marketing digital y están optimizadas para una acción específica, como completar un formulario, hacer una compra o descargar un recurso. Además, están cuidadosamente estructuradas para captar la atención del usuario y guiarlo hacia la acción deseada mediante un diseño atractivo, contenido relevante y llamadas a la acción claras.",
+        "card2Price":"$90 USD / $90.000 ARS",
+        "card3Title":"<i class='fa-solid fa-cart-shopping'></i> Tienda Online",
+        "card3Desc":"Las tiendas online, también conocidas como tiendas virtuales o tiendas en línea, son sitios web diseñados para permitir a los usuarios comprar productos o servicios directamente a través de Internet. Estas tiendas suelen ofrecer una amplia variedad de productos, que pueden ir desde ropa y electrónica hasta servicios digitales y suscripciones. Además, permiten a los clientes realizar compras de manera cómoda y rápida, sin necesidad de salir de casa, y en cualquier momento del día.",
+        "card3Price":"$250 USD / $250.000 ARS",
+        "card4Title":"<i class='fa-solid fa-user'></i> Tipo Folleto/Presentación",
+        "card4Desc":"Son sitios web que presentan información de manera similar a un folleto impreso. Estas webs suelen contener toda la información relevante en una sola página. Las páginas tipo folleto suelen utilizarse para promocionar un producto o servicio específico, o para presentar información concisa sobre una empresa o un evento. Suelen tener un diseño atractivo y visualmente impactante, con un enfoque claro en el contenido principal que se quiere comunicar.",
+        "card4Price":"$80 USD / $80.000 ARS",
+        "serviceMant":"Mantenimiento",
+        "serviceMantDesc":"Ofrecemos un servicio mensual opcional de mantenimiento que garantiza el monitoreo constante de su sitio las 24 horas del día. Nos encargamos de asegurar que su web funcione correctamente y de manera óptima, realizando ajustes y actualizaciones necesarias para mantenerla en perfecto estado. Con nuestro servicio, usted puede estar tranquilo sabiendo que su página web está en buenas manos y funcionando como debe en todo momento.",
+        "card5Title":"<i class='fa-solid fa-gears'></i> Pack Servicio de Mantenimiento",
+        "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Monitoreo constante:</span> Nuestro equipo supervisará su página web en busca de cualquier problema o fallo técnico, asegurando su correcto funcionamiento en todo momento.<span style='color: #8e00d4; font-weight: 500;'><br>Soporte técnico prioritario:</span> Usted recibirá atención personalizada y prioritaria en caso de cualquier problema técnico o consulta relacionada con su página web.<span style='color: #8e00d4; font-weight: 500;'><br>Copias de seguridad automáticas:</span> Realizamos copias de seguridad periódicas de su sitio web para proteger sus datos en caso de pérdida o daño.",
+        "card5Price":"$30 USD / $30.000 ARS"
+    },
+
+    "whoWeAre":{
+        "title":"Quienes somos?",
+        "description": "Somos una Startup dedicada al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades. Nuestro enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estamos aquí para ayudarte a alcanzar tus objetivos. Nos encontramos ubicados en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajamos con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Nuestro equipo está formado por expertos en diseño web, desarrollo de aplicaciones y marketing digital, listos para llevar tu presencia en línea al siguiente nivel. En <span style='font-weight: bold; color: black;'>Intellidev</span>, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.",
+        "signature":"Desarrollador"
+    },
+
+    "contactUs": {
+        "title":"Contáctanos",
+        "description":"Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!",
+        "slogan":"Nos dedicamos a ser tu aliado en la materialización de tus ideas y en la clarificación de tus dudas. Estamos aquí para brindarte todo nuestro apoyo y experiencia. <br> <span style='color: #8e00d4;'>¡Contáctanos hoy mismo para empezar a trabajar juntos!</span>",
+        "name":"Nombre",
+        "email":"Email",
+        "tel":"Teléfono (opcional)",
+        "idea":"Enseñanos tu idea o tu consulta",
+        "sent":"<i class='fa-regular fa-envelope'></i> Enviar"
+    },
+
+    "chatbot": {
+        "title": "Asistentes en Linea"
+    },
+
+    "footer":{
+        "contactus": "<i class='fa-solid fa-envelope'></i> Contacto",
+        "contactForm": "Formulario de Contacto",
+        "contactTel": "Movil: (+54) 11 3150-6458",
+        "contactMail": "Correo: francobusch130@gmail.com",
+        "planes": "<i class='fa-solid fa-briefcase'></i> Planes",
+        "planesCorWeb": "Web Corporativa",
+        "planesLandind": "Landind Page",
+        "planesShop": "Tienda Online",
+        "planesIntro": "Tipo Folleto/Presentación",
+        "whoWeAre": "Quienes somos?",
+        "howWeWork": "Como trabajamos tu Página Web",
+        "packages": "Planes",
+        "whyWebSite": "Por qué una página web?",
+        "workProcess": "Proceso de trabajo",
+        "agency": "© 2024 Intellidev, Agencia"
+    }
+}
