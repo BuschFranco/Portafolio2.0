@@ -61,7 +61,7 @@
     },
 
     "whoWeAre":{
-        "title":"Quienes somos?",
+        "title":"Conóceme",
         "description": "Somos una Startup dedicada al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades. Nuestro enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estamos aquí para ayudarte a alcanzar tus objetivos. Nos encontramos ubicados en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajamos con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Nuestro equipo está formado por expertos en diseño web, desarrollo de aplicaciones y marketing digital, listos para llevar tu presencia en línea al siguiente nivel. En <span style='font-weight: bold; color: black;'>Intellidev</span>, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.",
         "signature":"Desarrollador"
     },

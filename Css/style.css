@@ -336,10 +336,12 @@ body{
     font-weight: 700;
     font-size: 1.2rem;
     border: none;
-    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.342);
-}#btn-comotrabajamos:hover{
     color: white;
     background-color: #db6aed;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.342);
+    transition: .4s;
+}#btn-comotrabajamos:hover{
+    background-color: #ab4bb9;
 }
 #comoTrabajamos-Cards{
     margin-top: 1rem;
