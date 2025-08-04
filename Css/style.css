@@ -1,7 +1,7 @@
 #a{
-    color: #57437F;
+    color: #333;
 }#a:hover{
-    color: #25277A;
+    color: #db6aed;
 }
 header{
     box-shadow: rgba(0, 0, 0, 0.200) 0px 0px 25px;
@@ -170,7 +170,7 @@ body{
   
 
 #header-zone{
-    background-color: #57437F;
+    background-color: #db6aed;
 }#titulo{
     color: white;
     font-size: 4rem;
@@ -205,15 +205,24 @@ body{
     width: 100%;
     height: 100%;
     z-index: 0;
+}.aboutMe-Container{
+    text-align: start;
+    width: 75vh;
+    margin-left: 1.5rem;
+    color: white;
+}.aboutMe-Container h1{
+    font-weight: bold;
+}.aboutMe-Container h3{
+    color: rgb(219, 219, 219);
 }
 
 
 
 #btn-inicio{
-    background-color: #57437F;
+    background-color: #db6aed;
     margin-right: 1rem;
 }#btn-inicio:hover{
-    background-color: #443563;
+    background-color: #b952c9;
 }@media (max-width: 450px) {
     #btn-inicio{
         font-size: 1rem;
@@ -239,39 +248,6 @@ body{
 }
 #slogan-Conteiner{
     height: 90vh;
-}
-#slogan{
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    width: 50%;
-
-    opacity: 0;
-    animation: fadeIn 2.5s forwards;
-}@media (max-width: 1100px) {
-    #welcomeSec-logo{
-        display: none;
-    }
-
-}@media (max-width: 600px) {
-    #slogan{
-        font-size: 1.2rem;
-    }#slogan-Conteiner{
-        width: 100%;
-    }.dropdown-container {
-        margin-right: 2rem;
-        font-size: 0.5rem;
-        font-weight: 500;
-        border: solid rgba(0, 0, 0, 0.11) 1px;
-        border-radius: 1rem;
-        padding-left: 0px;
-        padding-right: 0px;
-        box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 5px;
-    }.dropdown {
-        margin-left: 0rem;
-        border-radius: 5px;
-        border: none;
-    }
 }
 
 
@@ -363,7 +339,7 @@ body{
     box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.342);
 }#btn-comotrabajamos:hover{
     color: white;
-    background-color: #57437F;
+    background-color: #db6aed;
 }
 #comoTrabajamos-Cards{
     margin-top: 1rem;
@@ -441,13 +417,13 @@ body{
     border-radius: 1rem;
     margin: 0 auto 2rem auto; /* Centro y margina */
 }.proceso-trabajo li:hover {
-    box-shadow: 0 4px 12px #57437f6c;
+    box-shadow: 0 4px 12px #db6aed6c;
 }.proceso-trabajo li::before {
     content: counter(step-counter);
     font-size: 1.4em;
     font-weight: bold;
     color: #fff;
-    background-color: #57437F;
+    background-color: #db6aed;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -467,7 +443,7 @@ body{
     margin: 0.4rem;
 }.proceso-trabajo .icono {
     font-size: 2rem;
-    color: #57437F;
+    color: #db6aed;
     opacity: 0.8;
     margin-bottom: 10px;
 }#proceso-desc {
@@ -488,9 +464,9 @@ body{
     background-color: #fcfcfc;
     margin-bottom: 20px;
     padding: 20px;
-    border-left: 6px solid #57437F;
+    border-left: 6px solid #db6aed;
     border-radius: 8px;
-    box-shadow: 0 2px 25px #57437f34;
+    box-shadow: 0 2px 25px #db6aed34;
     transition: transform 0.3s, box-shadow 0.3s;
     position: relative;
 }.grid-container {
@@ -610,7 +586,7 @@ body{
 }.card-title{
     font-weight: bold;
     font-size: 1.4rem;
-    color: #57437F;
+    color: #db6aed;
 }.precios{
     position: relative;
     color: #7200ac;
@@ -777,7 +753,7 @@ body{
         padding-bottom: 2rem;
     }
 }#contactForm-Background{
-    background-color: #57437F;
+    background-color: #db6aed;
     padding: 2rem;
     border-radius: 2rem;
     color: white;
@@ -843,7 +819,7 @@ body{
 }
 
 #chatbot-header {
-    background-color: #57437F;
+    background-color: #db6aed;
     color: white;
     padding: 10px;
     text-align: center;
@@ -874,7 +850,7 @@ body{
 
 #chatbot-toggle {
     display: none;
-    background-color: #57437F;
+    background-color: #db6aed;
     color: white;
     border: none;
     padding: 10px;
