@@ -7,7 +7,9 @@
     },
 
     "welcomeSec":{
-        "slogan":"Hola, Mi nombre es Franco Busch"
+        "slogan":"Hola, Mi nombre es Franco Busch",
+        "im":"Desarrollador de Software viviendo en Buenos Aires. Argentina.",
+        "info":"Contáctame para desarrollar la <span style='color: #db6aed; font-weight: bold;'>Página Web</span> de tu negocio o proyecto, implementando las mejores prácticas de <span style='color: #db6aed; font-weight: bold;''>Marketing Digital</span> y respetando la <span style='color: #db6aed; font-weight: bold;'>Identidad de tu Marca</span>."
     },
 
     "secWeb": {
