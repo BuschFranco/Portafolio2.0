@@ -189,22 +189,20 @@ body{
         opacity: 1 !important;
     }
 }#welcomeSec-Conteiner {
-    background-image: url('../Css/img/backgroundsec1.webp') !important;
+    /* background-image: url('../Css/img/backgroundsec1.webp') !important;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 100vh;
     position: relative;
 
     box-shadow: rgba(0, 0, 0, 0.473) 0px 10px 30px;
 }#welcomeSec-Conteiner::before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
 }.aboutMe-Container{
     text-align: start;
     width: 75vh;
@@ -212,8 +210,38 @@ body{
     color: white;
 }.aboutMe-Container h1{
     font-weight: bold;
-}.aboutMe-Container h3{
-    color: rgb(219, 219, 219);
+    line-height: 1;
+}.aboutMe-Container h3, .aboutMe-Container p{
+    color: rgb(238, 238, 238);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}.aboutMe-Container a{
+    background-color: #db6aed;
+    border-radius:.5rem;
+    padding: .3rem 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: solid black 1px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+     text-decoration: none;
+     cursor: pointer;
+     transition: .4s;
+}.aboutMe-Container a:hover{
+     box-shadow: -5px 5px 0px rgb(255, 255, 255);
+     transform: translate(5px, -5px);
+        
+}
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 1;
+     pointer-events: none;
 }
 
 
