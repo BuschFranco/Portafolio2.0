@@ -208,6 +208,11 @@ body{
     width: 75vh;
     margin-left: 1.5rem;
     color: white;
+}
+@media (max-width: 450px) {
+    #slogan-Conteiner{
+    flex-wrap: wrap;
+}
 }.aboutMe-Container h1{
     font-weight: bold;
     line-height: 1;
@@ -220,13 +225,13 @@ body{
     padding: .3rem 1.2rem;
     font-weight: bold;
     color: white;
-    border: solid black 1px;
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
      text-decoration: none;
      cursor: pointer;
      transition: .4s;
 }.aboutMe-Container a:hover{
      box-shadow: -5px 5px 0px rgb(255, 255, 255);
+       border: solid black 1px;
      transform: translate(5px, -5px);
         
 }
@@ -236,6 +241,7 @@ body{
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    max-width: 400px;
     width: auto;
     height: auto;
     z-index: -1;
