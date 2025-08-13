@@ -208,6 +208,11 @@ body{
     width: 75vh;
     margin-left: 1.5rem;
     color: white;
+     background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 1rem;
 }
 @media (max-width: 450px) {
     #slogan-Conteiner{
