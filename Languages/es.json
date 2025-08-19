@@ -60,11 +60,7 @@
         "card4Desc":"Son sitios web que presentan información de manera similar a un folleto impreso. Estas webs suelen contener toda la información relevante en una sola página. Las páginas tipo folleto suelen utilizarse para promocionar un producto o servicio específico, o para presentar información concisa sobre una empresa o un evento. Suelen tener un diseño atractivo y visualmente impactante, con un enfoque claro en el contenido principal que se quiere comunicar."
     },
 
-    "whoWeAre":{
-        "title":"Conóceme",
-        "description": "Soy un desarrollador web freelance dedicado al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades. Mi enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estoy aquí para ayudarte a alcanzar tus objetivos. Me encuentro ubicado en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajo con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Mi experiencia abarca diseño web, desarrollo de aplicaciones y marketing digital, listo para llevar tu presencia en línea al siguiente nivel. Como <span style='font-weight: bold; color: black;'>desarrollador independiente</span>, creo en la importancia de la colaboración y la comunicación constante con mis clientes. Me comprometo a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.",
-        "signature":"Desarrollador"
-    },
+
 
     "contactUs": {
         "title":"Contáctanos",

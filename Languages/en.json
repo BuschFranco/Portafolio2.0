@@ -64,11 +64,7 @@
         "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Constant monitoring:</span> Our team will monitor your website for any problems or technical failures, ensuring its proper functioning at all times.<span style='color: #8e00d4; font-weight: 500;'><br>Priority technical support:</span> You will receive personalized and priority attention in case of any technical problem or query related to your website.<span style='color: #8e00d4; font-weight: 500;'><br>Automatic backups:</span> We perform periodic backups of your website to protect your data in case of loss or damage."
     },
 
-    "whoWeAre": {
-        "title": "Who are we?",
-        "description": "I am a freelance web developer dedicated to developing websites both nationally and internationally, providing creative and effective solutions for your needs. My approach focuses on offering a quality service at an affordable price, ensuring that each client receives a personalized solution that meets their specific requirements. Whether you need a website for your business, personal project, or online store, I am here to help you achieve your goals. I am located in Argentina, Buenos Aires City. From here, I work with passion, dedication, and professionalism to offer you the best results. My experience covers web design, application development, and digital marketing, ready to take your online presence to the next level. As an <span style='font-weight: bold; color: black;'>independent developer</span>, I believe in the importance of collaboration and constant communication with my clients. I am committed to working hand in hand with you to understand your needs and offer solutions that exceed your expectations.",
-        "signature": "Developer"
-    },
+
 
     "contactUs": {
         "title": "Contact Me",

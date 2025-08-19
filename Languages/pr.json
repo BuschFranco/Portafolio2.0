@@ -64,11 +64,7 @@
         "card5Desc": "<span style='color: #8e00d4; font-weight: 500;'>Monitoramento constante:</span> Nossa equipe monitorará seu site em busca de qualquer problema ou falha técnica, garantindo seu funcionamento correto o tempo todo.<span style='color: #8e00d4; font-weight: 500;'><br> Suporte técnico prioritário:</span> Você receberá atendimento personalizado e prioritário em caso de qualquer problema técnico ou consulta relacionada ao seu site.<span style='color: #8e00d4; font-weight: 500;'><br> Backup automático:</span> Fazemos backups periódicos de seu site para proteger seus dados em caso de perda ou dano."
     },
 
-    "whoWeAre":{
-        "title":"Quem Somos?",
-        "description": "Sou um desenvolvedor web freelance dedicado ao desenvolvimento de sites tanto nacional quanto internacionalmente, fornecendo soluções criativas e eficazes para suas necessidades. Meu foco é oferecer um serviço de qualidade a um preço acessível, garantindo que cada cliente receba uma solução personalizada que atenda às suas necessidades específicas. Seja você precisa de um site para sua empresa, projeto pessoal ou loja online, estou aqui para ajudá-lo a alcançar seus objetivos. Estou localizado na Argentina, Ciudad de Buenos Aires. A partir daqui, trabalho com paixão, dedicação e profissionalismo para oferecer os melhores resultados. Minha experiência abrange design web, desenvolvimento de aplicativos e marketing digital, pronto para levar sua presença online para o próximo nível. Como <span style='font-weight: bold; color: black;'>desenvolvedor independente</span>, acredito na importância da colaboração e comunicação constante com meus clientes. Comprometo-me a trabalhar em estreita colaboração consigo para entender as suas necessidades e oferecer soluções que excedam as suas expectativas.",
-        "signature":"Desenvolvedor"
-        },
+
 
         "contactUs": {
             "title":"Entre em Contato Comigo",
