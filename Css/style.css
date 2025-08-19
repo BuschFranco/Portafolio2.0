@@ -968,3 +968,209 @@ body{
         display: block;
     }
 }
+
+/* ===== ANIMACIONES ELEGANTES PARA SCROLL ===== */
+
+/* Animaciones base */
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Clases para aplicar animaciones */
+.animate-slide-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 0.6s ease-out;
+}
+
+.animate-slide-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.animate-slide-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+}
+
+.animate-slide-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-fade-scale {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 0.4s ease-out;
+}
+
+.animate-fade-scale.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Efectos hover sutiles */
+.hover-lift {
+    transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-3px);
+}
+
+.hover-glow {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== ANIMACIONES ESPECIALES PARA PRIMERA IMPRESIÓN ===== */
+
+/* Animación de entrada para el logo */
+@keyframes logoEntrance {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(-10deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(5deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+/* Animación de escritura para el título principal */
+@keyframes typeWriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkCursor {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+/* Animación de deslizamiento elegante para subtítulo */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animación de aparición gradual para párrafo */
+@keyframes fadeInWords {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación de botón con efecto magnético */
+@keyframes buttonMagnet {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.8);
+    }
+    70% {
+        transform: translateY(-5px) scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Clases para aplicar las animaciones */
+#welcomeSec-logo {
+    animation: logoEntrance 1.2s ease-out;
+}
+
+#slogan-Conteiner h1 {
+    position: relative;
+    min-height: 1.2em;
+}
+
+#slogan-Conteiner h1 .typewriter-text {
+    display: inline;
+}
+
+#slogan-Conteiner h1 .cursor {
+    display: inline-block;
+    width: 3px;
+    height: 1em;
+    background-color: #db6aed;
+    margin-left: 2px;
+    animation: blinkCursor 1s ease-in-out infinite;
+}
+
+#slogan-Conteiner h3 {
+    opacity: 0;
+    animation: slideInRight 0.8s ease-out 1.8s both;
+}
+
+#slogan-Conteiner p {
+    opacity: 0;
+    animation: fadeInWords 1s ease-out 2.3s both;
+}
+
+#slogan-Conteiner a {
+    opacity: 0;
+    animation: buttonMagnet 0.8s ease-out 2.8s both;
+    transition: all 0.3s ease;
+}
+
+#slogan-Conteiner a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(219, 106, 237, 0.3);
+}

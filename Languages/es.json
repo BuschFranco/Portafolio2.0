@@ -19,15 +19,15 @@
 
     "comoTrabajamos":{
         "title":"Tu Página Web a medida",
-        "description":"En <span style='font-weight: bold;'>Intellidev</span> nos encargamos de desarrollar sitios web adaptados a las necesidades de cada usuario brindándole una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.",
-        "boton":"Cuéntanos sobre tu proyecto",
-        "responsiveDesc":"Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.",
+        "description":"Como <span style='font-weight: bold;'>desarrollador web freelance</span>, me especializo en crear sitios web únicos y personalizados que reflejen la identidad de cada proyecto. Mi enfoque se centra en desarrollar soluciones web adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporo características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así resultados que superen las expectativas.",
+        "boton":"Cuéntame sobre tu proyecto",
+        "responsiveDesc":"Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Me aseguro de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.",
         "manageable":"<i class='fa-solid fa-sliders'></i> Administrables",
         "manageableDesc":"Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.",
         "scalability":"<i class='fa-solid fa-chart-simple' ></i> Escalable",
         "scalabilityDesc":"Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.",
         "design":"<i class='fa-solid fa-palette'></i> Diseño",
-        "designDesc":"Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva."
+        "designDesc":"Mi diseño web se enfoca en crear una experiencia excepcional para el usuario. Integro el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva."
     },
 
     "procesoDeTrabajo": {
@@ -36,7 +36,7 @@
         "card1title":"Primera Reunión: Comprender su Idea",
         "card1desc":"El primer paso es reunirnos para que me cuente en detalle su idea y las necesidades de su proyecto. Quiero entender qué tipo de página web busca, qué estilo le gusta y qué información o funcionalidad necesita incluir. Esta reunión puede ser tanto presencial como de manera remota a través de plataformas como Google Meet, Zoom, Teams, etc., según lo que sea más cómodo para usted.",
         "card2title":"Prototipos Creativos Sin Costo",
-        "card2desc":"Con base en nuestra conversación, crearé un par de diseños prototipo que reflejen su idea. Estos diseños serán simples, pero le permitirán visualizar cómo podría verse su página web. Este paso es gratuito y tiene el objetivo de asegurarnos de estar alineados creativamente antes de comenzar el trabajo completo.",
+        "card2desc":"Con base en nuestra conversación, crearé un par de diseños prototipo que reflejen su idea. Estos diseños serán simples, pero le permitirán visualizar cómo podría verse su página web. Este paso es gratuito y tiene el objetivo de asegurarme de estar alineados creativamente antes de comenzar el trabajo completo.",
         "card3title":"Luz Verde y Programación",
         "card3desc":"Si los prototipos cumplen con sus expectativas y me da el visto bueno, comenzaré con la programación de su página web. Este proceso incluye convertir el diseño en una página funcional que se pueda navegar y usar.",
         "card4title":"Seguimiento Semanal",
@@ -62,19 +62,25 @@
 
     "whoWeAre":{
         "title":"Conóceme",
-        "description": "Somos una Startup dedicada al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades. Nuestro enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estamos aquí para ayudarte a alcanzar tus objetivos. Nos encontramos ubicados en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajamos con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Nuestro equipo está formado por expertos en diseño web, desarrollo de aplicaciones y marketing digital, listos para llevar tu presencia en línea al siguiente nivel. En <span style='font-weight: bold; color: black;'>Intellidev</span>, creemos en la importancia de la colaboración y la comunicación constante con nuestros clientes. Nos comprometemos a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.",
+        "description": "Soy un desarrollador web freelance dedicado al desarrollo de páginas web tanto a nivel nacional como internacional, brindando soluciones creativas y efectivas para tus necesidades. Mi enfoque se centra en ofrecer un servicio de calidad a un precio accesible, asegurando que cada cliente reciba una solución personalizada que se adapte a sus requerimientos específicos. Ya sea que necesites una página web para tu negocio, proyecto personal o tienda en línea, estoy aquí para ayudarte a alcanzar tus objetivos. Me encuentro ubicado en Argentina, Ciudad de Buenos Aires. Desde aquí, trabajo con pasión, dedicación y profesionalidad para ofrecerte los mejores resultados. Mi experiencia abarca diseño web, desarrollo de aplicaciones y marketing digital, listo para llevar tu presencia en línea al siguiente nivel. Como <span style='font-weight: bold; color: black;'>desarrollador independiente</span>, creo en la importancia de la colaboración y la comunicación constante con mis clientes. Me comprometo a trabajar mano a mano contigo para entender tus necesidades y ofrecerte soluciones que superen tus expectativas.",
         "signature":"Desarrollador"
     },
 
     "contactUs": {
         "title":"Contáctanos",
-        "description":"Estamos aquí para ayudarte a convertir tu idea en realidad. Puedes contactarnos para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escuchamos!",
-        "slogan":"Nos dedicamos a ser tu aliado en la materialización de tus ideas y en la clarificación de tus dudas. Estamos aquí para brindarte todo nuestro apoyo y experiencia. <br> <span style='color: #8e00d4;'>¡Contáctanos hoy mismo para empezar a trabajar juntos!</span>",
+        "description":"Estoy aquí para ayudarte a convertir tu idea en realidad. Puedes contactarme para compartir tu proyecto, hacer consultas generales o solicitar un presupuesto. ¡Te escucho!",
+        "slogan":"Me dedico a ser tu aliado en la materialización de tus ideas y en la clarificación de tus dudas. Estoy aquí para brindarte todo mi apoyo y experiencia. <br> <span style='color: #8e00d4;'>¡Contáctame hoy mismo para empezar a trabajar juntos!</span>",
         "name":"Nombre",
         "email":"Email",
         "tel":"Teléfono (opcional)",
-        "idea":"Enseñanos tu idea o tu consulta",
+        "idea":"Enséñame tu idea o tu consulta",
         "sent":"<i class='fa-regular fa-envelope'></i> Enviar"
+    },
+
+    "whoWeAre": {
+        "title": "Conóceme",
+        "description": "Soy Franco, un desarrollador web freelance apasionado con experiencia en la creación de soluciones digitales que impulsan el crecimiento empresarial. Mi enfoque está en desarrollar sitios web que no solo sean visualmente atractivos, sino también funcionales y optimizados para motores de búsqueda.<br><br>Me especializo en tecnologías modernas y siempre me mantengo actualizado con las últimas tendencias en desarrollo web y marketing digital. Cada proyecto es una oportunidad de crear algo único que realmente represente la visión de mis clientes y los ayude a alcanzar sus objetivos en línea.<br><br>Creo en la importancia de la colaboración estrecha con mis clientes, asegurándome de que cada detalle esté alineado con sus expectativas y necesidades empresariales.",
+        "signature": "Desarrollador"
     },
 
     "chatbot": {
@@ -96,6 +102,6 @@
         "packages": "Planes",
         "whyWebSite": "Por qué una página web?",
         "workProcess": "Proceso de trabajo",
-        "agency": "© 2024 Intellidev, Agencia"
+        "agency": "© 2024 Franco Busch, Desarrollador Web"
     }
 }

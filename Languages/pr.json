@@ -7,7 +7,9 @@
     },
 
     "welcomeSec":{
-        "slogan":"Eleve sua presença online com nosso desenvolvimento, convertendo visitantes em clientes <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+        "slogan":"Olá, Meu nome é Franco Busch",
+        "im":"Desenvolvedor de Software vivendo em Buenos Aires. Argentina.",
+        "info":"Entre em contato comigo para desenvolver o <span style='color: #db6aed; font-weight: bold;'>Site</span> do seu negócio ou projeto, implementando as melhores práticas de <span style='color: #db6aed; font-weight: bold;'>Marketing Digital</span> e respeitando a <span style='color: #db6aed; font-weight: bold;'>Identidade da sua Marca</span>."
     },
 
     "secWeb": {
@@ -17,28 +19,28 @@
 
     "comoTrabajamos":{
         "title":"Seu Site Personalizado",
-        "description":"Em <span style='font-weight: bold;'>Intellidev</span> nos encarregamos de desenvolver sites adaptados às necessidades de cada usuário, proporcionando-lhe uma experiência única. Como especialistas em design web, dedicamo-nos a criar sites adaptáveis e escaláveis que funcionam de maneira ideal em qualquer dispositivo, seja um telefone móvel, um tablet ou um computador de mesa. Além disso, incorporamos características interativas e personalizadas para melhorar a experiência do usuário, garantindo assim sua satisfação e compromisso.",
-        "boton":"Conte-nos sobre seu projeto",
-        "responsiveDesc":"Seu site <span>deve se adaptar a todos os dispositivos</span> para uma experiência de navegação ideal. Garantimos que cada elemento seja exibido corretamente em qualquer tela, mantendo a estrutura e a ordem para uma visualização perfeita.",
+        "description":"Como <span style='font-weight: bold;'>desenvolvedor web freelance</span>, especializo-me em criar sites únicos e personalizados que refletem a identidade de cada projeto. Meu foco está em desenvolver soluções web adaptáveis e escaláveis que funcionam de maneira ideal em qualquer dispositivo, seja um telefone móvel, um tablet ou um computador de mesa. Além disso, incorporo características interativas e personalizadas para melhorar a experiência do usuário, garantindo assim resultados que superam as expectativas.",
+        "boton":"Conte-me sobre seu projeto",
+        "responsiveDesc":"Seu site <span>deve se adaptar a todos os dispositivos</span> para uma experiência de navegação ideal. Garanto que cada elemento seja exibido corretamente em qualquer tela, mantendo a estrutura e a ordem para uma visualização perfeita.",
         "manageable":"<i class='fa-solid fa-sliders'></i> Gerenciável",
         "manageableDesc":"Uma vez online, você poderá gerenciar seu site facilmente. Essa vantagem é crucial, pois muitas vezes são necessárias atualizações periódicas, como ajustes de preços, novos elementos ou atualização de conteúdo.",
         "scalability":"<i class='fa-solid fa-chart-simple' ></i> Escalabilidade",
         "scalabilityDesc":"Projetamos sites com capacidade de escalabilidade, prontos para incorporar novas funcionalidades à medida que seu negócio evolui.",
         "design":"<i class='fa-solid fa-palette'></i> Design",
-        "designDesc":"Nosso design web foca em criar uma experiência excepcional para o usuário. Integramos a identidade visual de sua marca de forma eficaz no layout da página, utilizando recursos gráficos, tipografias e ícones para garantir uma interação fluida e atraente."
+        "designDesc":"Meu design web foca em criar uma experiência excepcional para o usuário. Integro a identidade visual de sua marca de forma eficaz no layout da página, utilizando recursos gráficos, tipografias e ícones para garantir uma interação fluida e atraente."
     },
 
     "procesoDeTrabajo": {
-        "title":"Nosso Processo de Trabalho",
-        "description": "Compreendemos a importância de nossos clientes se sentirem seguros e confiantes durante todo o processo de desenvolvimento de seu projeto. Por isso, desenvolvemos uma abordagem transparente e estruturada que garante a qualidade e a eficiência em cada etapa. Abaixo, detalhamos nosso processo de trabalho:",
-        "card1title":"Consulta Inicial",
-        "card1desc":"Nos encontramos com o cliente via videochamada ou pessoalmente para entender suas necessidades e objetivos. Discutimos as ideias iniciais e estabelecemos as expectativas do projeto.",
-        "card2title":"Pesquisa e Planejamento",
-        "card2desc":"Realizamos o planejamento do projeto em detalhes. Isso inclui a definição do escopo, a criação de um cronograma e a alocação de recursos.",
-        "card3title":"Design",
-        "card3desc":"Desarrollamos prototipos y maquetas para visualizar el diseño final. Nos aseguramos de que el diseño sea atractivo, funcional y alineado con la identidad de la marca del cliente.",
-        "card4title":"Desenvolvimento",
-        "card4desc":"Construímos o projeto utilizando as últimas tecnologias e práticas recomendadas. Mantemos uma comunicação constante com o cliente para garantir que estamos na mesma página. (O uso de tecnologias depende do tipo de projeto)",
+        "title":"Processo de Desenvolvimento",
+        "description": "Obrigado por considerar meus serviços para o desenvolvimento de seu projeto. Quero explicar de maneira simples e clara como seria o processo de trabalho desde o início até a entrega final:",
+        "card1title":"Primeira Reunião: Compreender sua Ideia",
+        "card1desc":"O primeiro passo é nos reunirmos para que me conte em detalhes sua ideia e as necessidades de seu projeto. Quero entender que tipo de site você busca, que estilo gosta e que informação ou funcionalidade precisa incluir. Esta reunião pode ser tanto presencial quanto de maneira remota através de plataformas como Google Meet, Zoom, Teams, etc., conforme o que seja mais cômodo para você.",
+        "card2title":"Protótipos Criativos Sem Custo",
+        "card2desc":"Com base em nossa conversa, criarei alguns designs protótipo que reflitam sua ideia. Estes designs serão simples, mas permitirão visualizar como poderia ficar seu site. Este passo é gratuito e tem o objetivo de me assegurar de que estamos alinhados criativamente antes de começar o trabalho completo.",
+        "card3title":"Luz Verde e Programação",
+        "card3desc":"Se os protótipos cumprem com suas expectativas e me dá o visto bom, começarei com a programação de seu site. Este processo inclui converter o design em uma página funcional que se possa navegar e usar.",
+        "card4title":"Acompanhamento Semanal",
+        "card4desc":"Durante o desenvolvimento, irei mostrando o progresso cada semana para que possa ver como vai tomando forma seu site. Isto também permite fazer ajustes se necessário. O tempo estimado de entrega é de 1 mês e meio a 2 meses, dependendo da complexidade.",
         "card5title":"Testes e Revisão",
         "card5desc":"Testamos o projeto em diferentes dispositivos e navegadores para garantir sua qualidade. Realizamos as revisões necessárias com base no feedback do cliente.",
         "card6title":"Lançamento",
@@ -46,10 +48,8 @@
     },
 
     "planes":{
-        "title":"Planos",
-        "description":"Descubra nossos planos e conheça os diferentes tipos de sites. Use-o como um guia para tomar a melhor decisão!",
-        "hostdom":"<span style='color: #8e00d4;'>1</span> ano de <span style='color: #8e00d4;'>Hospedagem e Domínio Gratuito</span> incluso em cada plano",
-        "description2":"(Os preços são representativos, podem variar dependendo da quantidade de elementos solicitados para a página)",
+        "title":"Tipos de Sites",
+        "description":"Conheça os diferentes tipos de sites. Use-o como um guia para tomar a melhor decisão!",
         "card1Title":"<i class='fa-solid fa-handshake-angle'></i> Site Corporativo",
         "card1Desc":"Sites corporativos são sites projetados para representar uma empresa online e comunicar sua identidade, produtos, serviços e valores ao seu público. Eles geralmente incluem informações sobre a história da empresa, sua missão e visão, bem como detalhes de contato e links para suas redes sociais. Esses sites também podem incluir seções sobre seus produtos ou serviços, depoimentos de clientes e/ou oportunidades de emprego. Seu objetivo principal é fortalecer a presença online da empresa e melhorar sua imagem corporativa.",
         "card2Title":"<i class='fa-solid fa-bullseye'></i> Landind Page",
@@ -66,19 +66,25 @@
 
     "whoWeAre":{
         "title":"Quem Somos?",
-        "description": "Somos uma startup dedicada ao desenvolvimento de sites tanto nacional quanto internacionalmente, fornecendo soluções criativas e eficazes para suas necessidades. Nosso foco é oferecer um serviço de qualidade a um preço acessível, garantindo que cada cliente receba uma solução personalizada que atenda às suas necessidades específicas. Seja você precisa de um site para sua empresa, projeto pessoal ou loja online, estamos aqui para ajudá-lo a alcançar seus objetivos. Estamos localizados na Argentina, Ciudad de Buenos Aires. A partir daqui, trabalhamos com paixão, dedicação e profissionalismo para oferecer os melhores resultados. Nossa equipe é composta por especialistas em design web, desenvolvimento de aplicativos e marketing digital, prontos para levar sua presença online para o próximo nível. Na <span style='font-weight: bold; color: black;'>Intellidev</span>, acreditamos na importância da colaboração e comunicação constante com nossos clientes. Comprometemo-nos a trabalhar em estreita colaboração consigo para entender as suas necessidades e oferecer soluções que excedam as suas expectativas.",
+        "description": "Sou um desenvolvedor web freelance dedicado ao desenvolvimento de sites tanto nacional quanto internacionalmente, fornecendo soluções criativas e eficazes para suas necessidades. Meu foco é oferecer um serviço de qualidade a um preço acessível, garantindo que cada cliente receba uma solução personalizada que atenda às suas necessidades específicas. Seja você precisa de um site para sua empresa, projeto pessoal ou loja online, estou aqui para ajudá-lo a alcançar seus objetivos. Estou localizado na Argentina, Ciudad de Buenos Aires. A partir daqui, trabalho com paixão, dedicação e profissionalismo para oferecer os melhores resultados. Minha experiência abrange design web, desenvolvimento de aplicativos e marketing digital, pronto para levar sua presença online para o próximo nível. Como <span style='font-weight: bold; color: black;'>desenvolvedor independente</span>, acredito na importância da colaboração e comunicação constante com meus clientes. Comprometo-me a trabalhar em estreita colaboração consigo para entender as suas necessidades e oferecer soluções que excedam as suas expectativas.",
         "signature":"Desenvolvedor"
         },
 
         "contactUs": {
-            "title":"Entre em Contato",
-            "description":"Estamos aqui para ajudá-lo a transformar sua ideia em realidade. Você pode entrar em contato conosco para compartilhar seu projeto, fazer perguntas gerais ou solicitar um orçamento. Estamos ouvindo!",
-            "slogan":"Dedicamo-nos a ser seu aliado na concretização de suas ideias e na esclarecimento de suas dúvidas. Estamos aqui para lhe oferecer todo o nosso apoio e experiência. <br> <span style='color: #8e00d4;'>Entre em contato hoje mesmo para começarmos a trabalhar juntos!</span>",
+            "title":"Entre em Contato Comigo",
+            "description":"Estou aqui para ajudá-lo a transformar sua ideia em realidade. Você pode entrar em contato comigo para compartilhar seu projeto, fazer perguntas gerais ou solicitar um orçamento. Estou ouvindo!",
+            "slogan":"Dedico-me a ser seu aliado na concretização de suas ideias e na esclarecimento de suas dúvidas. Estou aqui para lhe oferecer todo o meu apoio e experiência. <br> <span style='color: #8e00d4;'>Entre em contato hoje mesmo para começarmos a trabalhar juntos!</span>",
             "name":"Nome",
             "email":"Email",
             "tel":"Telefone (opcional)",
-            "idea":"Mostre-nos sua ideia ou sua consulta",
+            "idea":"Mostre-me sua ideia ou sua consulta",
             "sent":"<i class='fa-regular fa-envelope'></i> Enviar"
+        },
+        
+        "whoWeAre": {
+            "title": "Conheça-me",
+            "description": "Sou Franco, um desenvolvedor web freelance apaixonado com experiência na criação de soluções digitais que impulsionam o crescimento dos negócios. Meu foco está em desenvolver sites que não são apenas visualmente atraentes, mas também funcionais e otimizados para motores de busca.<br><br>Especializo-me em tecnologias modernas e sempre me mantenho atualizado com as últimas tendências em desenvolvimento web e marketing digital. Cada projeto é uma oportunidade de criar algo único que realmente representa a visão dos meus clientes e os ajuda a alcançar seus objetivos online.<br><br>Acredito na importância da colaboração próxima com meus clientes, garantindo que cada detalhe esteja alinhado com suas expectativas e necessidades de negócio.",
+            "signature": "Desenvolvedor"
         },
         
         "chatbot": {
@@ -100,7 +106,7 @@
             "packages": "Planos",
             "whyWebSite": "Por que um site?",
             "workProcess": "Processo de trabalho",
-            "agency": "© 2024 Intellidev, Agência"
+            "agency": "© 2024 Franco Busch, Desenvolvedor Web"
         }
-    }        
+    }
 

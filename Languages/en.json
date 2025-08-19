@@ -7,7 +7,9 @@
     },
 
     "welcomeSec": {
-        "slogan": "Boost your online presence with our development, turning visitors into customers <i class='fa-solid fa-chart-line'></i> <i class='fa-regular fa-face-laugh-wink'></i>"
+        "slogan": "Hello, My name is Franco Busch",
+        "im": "Software Developer living in Buenos Aires. Argentina.",
+        "info": "Contact me to develop the <span style='color: #db6aed; font-weight: bold;'>Website</span> for your business or project, implementing the best <span style='color: #db6aed; font-weight: bold;'>Digital Marketing</span> practices and respecting your <span style='color: #db6aed; font-weight: bold;'>Brand Identity</span>."
     },
 
     "secWeb": {
@@ -17,28 +19,28 @@
 
     "comoTrabajamos": {
         "title": "Your Custom Website",
-        "description": "At <span style='font-weight: bold;'>Intellidev</span>, we are dedicated to developing websites tailored to each user's needs, providing them with a unique experience. As web design specialists, we focus on creating adaptable and scalable sites that function optimally on any device, whether it be a mobile phone, a tablet, or a desktop computer. Additionally, we incorporate interactive and personalized features to enhance the user experience, ensuring their satisfaction and engagement.",
-        "boton":"Tell us about your project",
-        "responsiveDesc": "Your website <span>must adapt to all devices</span> for an optimal browsing experience. We ensure that every element looks good on any screen, maintaining structure and order for a perfect display.",
+        "description": "As a <span style='font-weight: bold;'>freelance web developer</span>, I specialize in creating unique and personalized websites that reflect the identity of each project. My approach focuses on developing adaptable and scalable web solutions that function optimally on any device, whether it be a mobile phone, a tablet, or a desktop computer. Additionally, I incorporate interactive and personalized features to enhance the user experience, ensuring results that exceed expectations.",
+        "boton":"Tell me about your project",
+        "responsiveDesc": "Your website <span>must adapt to all devices</span> for an optimal browsing experience. I ensure that every element looks good on any screen, maintaining structure and order for a perfect display.",
         "manageable": "<i class='fa-solid fa-sliders'></i> Manageable",
         "manageableDesc": "Once online, you can easily manage your website. This advantage is crucial, as periodic updates are often needed, such as price adjustments, new items, or content updates.",
         "scalability": "<i class='fa-solid fa-chart-simple'></i> Scalability",
         "scalabilityDesc": "We design websites with scalability in mind, ready to incorporate new functionalities as your business evolves.",
         "design": "<i class='fa-solid fa-palette'></i> Design",
-        "designDesc": "Our web design focuses on creating an exceptional user experience. We effectively integrate your brand's branding into the page layout, using graphic resources, typography, and icons to ensure a smooth and attractive interaction."
+        "designDesc": "My web design focuses on creating an exceptional user experience. I effectively integrate your brand's branding into the page layout, using graphic resources, typography, and icons to ensure a smooth and attractive interaction."
     },
 
     "procesoDeTrabajo": {
-        "title": "Our Work Process",
-        "description": "We understand the importance of our clients feeling safe and confident throughout the development process of their project. That's why we have designed a transparent and structured approach that guarantees quality and efficiency at every stage. Below, we detail our work process:",
-        "card1title": "Initial Consultation",
-        "card1desc": "We meet with the client via video call or in person to understand their needs and objectives. We discuss initial ideas and set project expectations.",
-        "card2title": "Research and Planning",
-        "card2desc": "We conduct detailed project planning. This includes defining the scope, creating a timeline, and allocating resources.",
-        "card3title": "Design",
-        "card3desc": "We develop prototypes and mockups to visualize the final design. We ensure that the design is attractive, functional, and aligned with the client's brand identity.",
-        "card4title": "Development",
-        "card4desc": "We build the project using the latest technologies and best practices. We maintain constant communication with the client to ensure we are on the same page. (The use of technologies depends on the type of project)",
+        "title": "Development Process",
+        "description": "Thank you for considering my services for the development of your project. I want to explain in a simple and clear way what the work process would be like from start to final delivery:",
+        "card1title": "First Meeting: Understanding Your Idea",
+        "card1desc": "The first step is to meet so you can tell me in detail about your idea and your project needs. I want to understand what type of website you're looking for, what style you like, and what information or functionality you need to include. This meeting can be either in person or remotely through platforms like Google Meet, Zoom, Teams, etc., whatever is most comfortable for you.",
+        "card2title": "Creative Prototypes at No Cost",
+        "card2desc": "Based on our conversation, I will create a couple of prototype designs that reflect your idea. These designs will be simple, but will allow you to visualize how your website could look. This step is free and aims to ensure we are creatively aligned before starting the complete work.",
+        "card3title": "Green Light and Programming",
+        "card3desc": "If the prototypes meet your expectations and you give me the go-ahead, I will begin programming your website. This process includes converting the design into a functional page that can be navigated and used.",
+        "card4title": "Weekly Follow-up",
+        "card4desc": "During development, I will show you the progress each week so you can see how your page is taking shape. This also allows for adjustments if necessary. The estimated delivery time is 1.5 to 2 months, depending on complexity.",
         "card5title": "Testing and Review",
         "card5desc": "We test the project on different devices and browsers to ensure quality. We make necessary revisions based on client feedback.",
         "card6title": "Launch",
@@ -46,10 +48,8 @@
     },
 
     "planes": {
-        "title": "Plans",
-        "description": "Discover our plans and learn about the different types of websites. Use it as a guide to make the best decision!",
-        "hostdom":"<span style='color: #8e00d4;'>1</span> year of <span style='color: #8e00d4;'>Hosting and Free Domain</span> included in each plan",
-        "description2": "(Prices are representative; they may vary depending on the number of elements requested for the page)",
+        "title": "Types of Websites",
+        "description": "Learn about the different types of websites. Use it as a guide to make the best decision!",
         "card1Title": "<i class='fa-solid fa-handshake-angle'></i> Corporate Web",
         "card1Desc": "Corporate websites are sites designed to represent a company online and communicate its identity, products, services, and values to its audience. They usually include information about the company's history, mission, and vision, as well as contact details and links to social media. These websites can also include sections on their products or services, customer testimonials, and/or job opportunities. Their main goal is to strengthen the company's online presence and improve its corporate image.",
         "card2Title": "<i class='fa-solid fa-bullseye'></i> Landing Page",
@@ -66,19 +66,25 @@
 
     "whoWeAre": {
         "title": "Who are we?",
-        "description": "We are a startup dedicated to developing websites both nationally and internationally, providing creative and effective solutions for your needs. Our approach focuses on offering a quality service at an affordable price, ensuring that each client receives a personalized solution that meets their specific requirements. Whether you need a website for your business, personal project, or online store, we are here to help you achieve your goals. We are located in Argentina, Buenos Aires City. From here, we work with passion, dedication, and professionalism to offer you the best results. Our team consists of experts in web design, application development, and digital marketing, ready to take your online presence to the next level. At <span style='font-weight: bold; color: black;'>Intellidev</span>, we believe in the importance of collaboration and constant communication with our clients. We are committed to working hand in hand with you to understand your needs and offer solutions that exceed your expectations.",
+        "description": "I am a freelance web developer dedicated to developing websites both nationally and internationally, providing creative and effective solutions for your needs. My approach focuses on offering a quality service at an affordable price, ensuring that each client receives a personalized solution that meets their specific requirements. Whether you need a website for your business, personal project, or online store, I am here to help you achieve your goals. I am located in Argentina, Buenos Aires City. From here, I work with passion, dedication, and professionalism to offer you the best results. My experience covers web design, application development, and digital marketing, ready to take your online presence to the next level. As an <span style='font-weight: bold; color: black;'>independent developer</span>, I believe in the importance of collaboration and constant communication with my clients. I am committed to working hand in hand with you to understand your needs and offer solutions that exceed your expectations.",
         "signature": "Developer"
     },
 
     "contactUs": {
-        "title": "Contact Us",
-        "description": "We are here to help you turn your idea into reality. You can contact us to share your project, ask general questions, or request a quote. We are listening!",
-        "slogan": "We are dedicated to being your ally in materializing your ideas and clarifying your doubts. We are here to provide you with all our support and experience. <br> <span style='color: #8e00d4;'>Contact us today to start working together!</span>",
+        "title": "Contact Me",
+        "description": "I am here to help you turn your idea into reality. You can contact me to share your project, ask general questions, or request a quote. I am listening!",
+        "slogan": "I am dedicated to being your ally in materializing your ideas and clarifying your doubts. I am here to provide you with all my support and experience. <br> <span style='color: #8e00d4;'>Contact me today to start working together!</span>",
         "name": "Name",
         "email": "Email",
         "tel": "Phone (optional)",
-        "idea": "Show us your idea or question",
+        "idea": "Show me your idea or question",
         "sent": "<i class='fa-regular fa-envelope'></i> Send"
+    },
+
+    "whoWeAre": {
+        "title": "Get to Know Me",
+        "description": "I am Franco, a passionate freelance web developer with experience in creating digital solutions that drive business growth. My focus is on developing websites that are not only visually appealing but also functional and optimized for search engines.<br><br>I specialize in modern technologies and always stay updated with the latest trends in web development and digital marketing. Each project is an opportunity to create something unique that truly represents my clients' vision and helps them achieve their online goals.<br><br>I believe in the importance of close collaboration with my clients, ensuring that every detail aligns with their expectations and business needs.",
+        "signature": "Developer"
     },
 
     "chatbot": {
@@ -100,6 +106,6 @@
         "packages": "Plans",
         "whyWebSite": "Why a website?",
         "workProcess": "Work Process",
-        "agency": "© 2024 Intellidev, Agency"
+        "agency": "© 2024 Franco Busch, Web Developer"
     }
 }
