@@ -11,10 +11,24 @@ footer{
     padding-top: 1rem;
 }
 body{
-    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     background: rgb(87,67,127);
     background: linear-gradient(90deg, rgba(87,67,127,0.17550770308123254) 0%, rgba(255,255,255,1) 50%, rgba(87,67,127,0.18391106442577032) 100%);
 }html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure all containers don't exceed viewport width */
+* {
+    box-sizing: border-box;
+}
+
+.container, .row, [class*="col-"] {
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -214,10 +228,28 @@ body{
     border-radius: 1rem;
     padding: 1rem;
 }
-@media (max-width: 450px) {
-    #slogan-Conteiner{
-    flex-wrap: wrap;
+
+/* Responsive fixes for mobile devices */
+@media (max-width: 768px) {
+    .aboutMe-Container {
+        width: calc(100vw - 3rem);
+        max-width: 90vw;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
+
+@media (max-width: 450px) {
+    .aboutMe-Container {
+        width: calc(100vw - 2rem);
+        max-width: 95vw;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 0.8rem;
+    }
+    #slogan-Conteiner{
+        flex-wrap: wrap;
+    }
 }.aboutMe-Container h1{
     font-weight: bold;
     line-height: 1;
@@ -280,6 +312,22 @@ body{
     padding-left: 8px;
     padding-right: 8px;
     box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 5px;
+}
+
+@media (max-width: 768px) {
+    .dropdown-container {
+        margin-right: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .dropdown-container {
+        margin-right: 0.5rem;
+        font-size: 1rem;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
 }.dropdown {
     margin-left: 0.6rem;
     border-radius: 5px;
@@ -295,7 +343,18 @@ body{
     margin-top: 1rem;
     padding: 3rem;
     color: #3a3a3a;
+}
 
+@media (max-width: 768px) {
+    #secWeb {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    #secWeb {
+        padding: 1.5rem 0.5rem;
+    }
 }#secWeb-titulo{
     font-weight: bold;
 
@@ -521,7 +580,8 @@ body{
     flex-wrap: wrap;
     border: 1px solid #ddd;
     border-radius: 4rem;
-    height: auto; /* Ajuste automático de altura */
+    height: auto;
+    overflow: visible;
 }
 @media (max-width: 1300px) {
     .grid-container {
@@ -661,38 +721,71 @@ body{
         flex-wrap: wrap;
         padding: 2rem;
         text-align: center;
-    }.card{
-        height: 65vh;
-        width: 24rem;
-    }.card-title{
+    }
+    .card{
+        height: auto;
+        width: 90vw;
+        max-width: 350px;
+        margin: 0 auto 1rem auto;
+    }
+    .card-title{
         font-size: 1.1rem;
-    }.precios{
+    }
+    .precios{
         font-size: 1.3rem;
         bottom: 1rem;
-    }.card-text{
+    }
+    .card-text{
         margin-top: 5%;
-        font-size: small;
-    }.card:hover{
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    .card:hover{
         transition: 0s;
         box-shadow: 0px 0px 0px black;
         translate: 0px 0px;
-    }#mantenimiento-conteiner:hover {
+    }
+    #mantenimiento-conteiner:hover {
         transition: 0s;
         box-shadow: 0px 0px 0px black;
         translate: 0px 0px;
-    }#planes-titulo p{
+    }
+    #planes-titulo p{
         font-size: 1.2rem;
-    }#planes-desc2{
+    }
+    #planes-desc2{
         font-size: 1rem;
         padding: 1rem;
-    }#planes-titulo{
+    }
+    #planes-titulo{
         margin-bottom: 1.5rem;
-    }#mantenimiento-desc{
+    }
+    #mantenimiento-desc{
         font-size: medium;
-    }#planes-titulo h2{
+    }
+    #planes-titulo h2{
         font-size: 1.3rem;
     }
 }
+
+@media (max-width: 450px) {
+    .card{
+        width: 95vw;
+        max-width: 300px;
+        padding: 0.8rem;
+    }
+    .card-text{
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    #planes-conteiner {
+        padding: 0 0.5rem;
+    }
+}
+
 @media (max-width: 1200px) {
     #mant-imagen {
         width: 100% !important;
@@ -734,6 +827,8 @@ body{
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.103) 0px 0px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
 
     view-timeline-name: --image;
     view-timeline-axis: block;
@@ -748,17 +843,27 @@ body{
     font-weight: 500;
     color: rgb(90, 90, 90);
 }
+
+@media (max-width: 1200px) {
+    #who-conteiner{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #who-imagen{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    #who-text{
+        text-align: center;
+    }
+}
+
 @media (max-width: 800px) {
     #who-imagen{
         width: 100%;
-    }#who-text{
-        font-size: smaller;
     }
-}
-@media (max-width: 1200px) {
-    
-    #who-conteiner{
-        flex-wrap: wrap;
+    #who-text{
+        font-size: smaller;
     }
 }
 
