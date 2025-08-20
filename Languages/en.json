@@ -91,6 +91,11 @@
         "title": "Online Assistant"
     },
 
+    "downloadButton": {
+        "text": "Download Document",
+        "file": "pdf/WebDevelopmentProcess_EN.pdf"
+    },
+
     "footer": {
         "contactus": "<i class='fas fa-envelope'></i> Contact",
         "contactForm": "Contact Form",

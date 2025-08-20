@@ -87,6 +87,11 @@
         "title": "Asistentes en Linea"
     },
 
+    "downloadButton": {
+        "text": "Descargar Documento",
+        "file": "pdf/ProcesodeDesarrolloPaginaWeb.pdf"
+    },
+
     "footer":{
         "contactus": "<i class='fas fa-envelope'></i> Contacto",
         "contactForm": "Formulario de Contacto",

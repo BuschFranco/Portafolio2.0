@@ -91,6 +91,11 @@
             "title": "Assistente On-line"
         },
         
+        "downloadButton": {
+            "text": "Baixar Documento",
+            "file": "pdf/ProcessoDesenvolvimentoWeb_PT.pdf"
+        },
+        
         "footer": {
             "contactus": "<i class='fas fa-envelope'></i> Contato",
             "contactForm": "Formulário de Contato",

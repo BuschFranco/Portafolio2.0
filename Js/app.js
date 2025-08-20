@@ -77,6 +77,12 @@ function transferToForm(description) {
             textToChange.innerHTML = texts[section][value];
         }
 
+        // Actualizar el botón de descarga
+        const downloadBtn = document.getElementById('download-btn');
+        if (downloadBtn && texts.downloadButton) {
+            downloadBtn.href = texts.downloadButton.file;
+        }
+
         console.log(texts["comoTrabajamos"]);
     } catch (error) {
         console.error("Error loading language file:", error);
