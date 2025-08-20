@@ -44,7 +44,11 @@
         "card5title": "Testing and Review",
         "card5desc": "We test the project on different devices and browsers to ensure quality. We make necessary revisions based on client feedback.",
         "card6title": "Launch",
-        "card6desc": "We implement the site deployment on a hosting service according to your requirements and ensure a smooth transition. We provide post-launch support to address any issues that may arise."
+        "card6desc": "We implement the site deployment on a hosting service according to your requirements and ensure a smooth transition. We provide post-launch support to address any issues that may arise.",
+        "card7title": "Final Delivery",
+        "card7desc": "Upon completion, I will deliver a <strong>website ready to use</strong>. As part of the service, I will include:<br>• <strong>A domain and hosting free for 1 year</strong>:<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class='punto-rosa'>●</span> A domain is the name your page will have on the Internet (for example, <a href='https://www.buschfranco.com' target='_blank' style='color: #db6aed;'>www.buschfranco.com</a>). It's what your clients will type to find your site.<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class='punto-rosa'>●</span> Hosting is the space on a server where all your page information is stored so it's available on the Internet 24 hours a day.<br>• <strong>A user manual</strong> so you can, for example, learn how to edit, delete or add services, among other things.<br>• <strong>Google Analytics integration</strong>:<br>&nbsp;&nbsp;&nbsp;&nbsp;This service will allow you to manage traffic to your <strong>website</strong>. You'll be able to know information like user location, number of visits, average session time and much more.<br>• <strong>Google Ads integration</strong>:<br>&nbsp;&nbsp;&nbsp;&nbsp;Your <strong>website</strong> will be ready to be promoted through Google Ads campaigns, facilitating the implementation of digital marketing strategies that boost your business visibility on the Internet.",
+        "card8title": "Cost and Reference",
+        "card8desc": "The project price depends on the page complexity. As a reference, the cost for a page that presents your business services or project information, information about you and a direct contact form is <strong>250 USD</strong>. This cost includes what's mentioned in the final delivery:<br>• <strong>Website</strong><br>• <strong>Domain and hosting free for 1 year</strong>.<br>• <strong>A user manual</strong>.<br>• <strong>Google Analytics integration</strong>.<br>• <strong>Google Ads integration</strong>."
     },
 
     "planes": {
@@ -88,20 +92,23 @@
     },
 
     "footer": {
-        "contactus": "<i class='fa-solid fa-envelope'></i> Contact",
+        "contactus": "<i class='fas fa-envelope'></i> Contact",
         "contactForm": "Contact Form",
-        "contactTel": "Mobile: (+54) 11 3150-6458",
-        "contactMail": "Email: francobusch130@gmail.com",
-        "planes": "<i class='fa-solid fa-briefcase'></i> Plans",
+        "contactTel": "(+54) 11 3150-6458",
+        "contactMail": "contacto@buschfranco.com",
+        "planes": "<i class='fas fa-cogs'></i> Services",
         "planesCorWeb": "Corporate Web",
         "planesLandind": "Landing Page",
         "planesShop": "Online Store",
         "planesIntro": "Brochure/Presentation Type",
-        "whoWeAre": "Who are we?",
-        "howWeWork": "How we work your Website",
+        "navigation": "<i class='fas fa-compass'></i> Navigation",
+        "whoWeAre": "About Me",
+        "howWeWork": "How I Work",
         "packages": "Plans",
         "whyWebSite": "Why a website?",
-        "workProcess": "Work Process",
+        "workProcess": "Process",
+        "location": "Palermo, Buenos Aires, Argentina",
+        "description": "Freelance Web Developer specialized in digital solutions that boost your business.",
         "agency": "© 2024 Franco Busch, Web Developer"
     }
 }

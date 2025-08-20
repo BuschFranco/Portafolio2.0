@@ -552,6 +552,111 @@ body{
     color: rgb(90, 90, 90);
     margin-bottom: 4rem;
     padding: 0 1rem; /* Asegúrate de que haya espacio a los lados */
+}
+
+/* Estilos para el botón de descarga */
+.btn-download {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+.btn-download:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(219, 106, 237, 0.4) !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+.btn-download:active {
+    transform: translateY(-1px);
+}
+
+.btn-download i {
+    transition: transform 0.3s ease;
+}
+
+.btn-download:hover i {
+    transform: scale(1.1);
+}
+
+/* Estilo para puntos rosas */
+.punto-rosa {
+    color: #db6aed;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Estilos para la sección de cierre del proceso */
+.proceso-cierre {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.proceso-cierre-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.proceso-cierre-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.proceso-cierre-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #db6aed, #9c27b0);
+}
+
+.proceso-cierre-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(219, 106, 237, 0.15);
+}
+
+.proceso-cierre-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.proceso-cierre-card h3 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #db6aed;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.proceso-cierre-card p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .proceso-cierre-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .proceso-cierre-card {
+        padding: 20px;
+    }
 }.proceso-trabajo ol {
     counter-reset: step-counter;
     list-style: none;
@@ -1047,11 +1152,208 @@ body{
 }
 
 
+/* Footer Simple */
+.footer-simple {
+    background: linear-gradient(135deg, #667eea 0%, #9338a1 100%);
+    color: white;
+    padding: 30px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 3rem;
+}
+
+.footer-brand {
+    flex: 1;
+    max-width: 350px;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-brand h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-brand p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+    flex: 2;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-column h4 i {
+    color: #db6aed;
+    font-size: 1rem;
+}
+
+.footer-column a {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    padding: 2px 0;
+}
+
+.footer-column a:hover {
+    color: #db6aed;
+    transform: translateX(5px);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+.contact-item i {
+    width: 16px;
+    color: #db6aed;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 25px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-legal a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.3s ease;
+}
+
+.footer-legal a:hover {
+    color: #db6aed;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    .footer-brand {
+        max-width: 100%;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .footer-column {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-simple {
+        padding: 30px 0 15px;
+    }
+    
+    .footer-links {
+        gap: 1.5rem;
+    }
+    
+    .footer-brand h3 {
+        font-size: 1.3rem;
+    }
+}
+
 #footer-secciones div{
     width: 16rem;
     margin-left: 2rem;
     margin-right: 2rem;
-}.footer-list h2{
+}
+.footer-list h2{
     font-size: 1.7rem;
 }
 .footer-list a{
@@ -1059,7 +1361,8 @@ body{
     text-decoration: none;
     margin-bottom: 0.6rem;
     color: #6024d6;
-}.footer-list a:hover{
+}
+.footer-list a:hover{
     color: black;
     transition: 0.4s;
 }

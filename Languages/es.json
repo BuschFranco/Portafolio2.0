@@ -44,7 +44,11 @@
         "card5title":"Pruebas y Revisión",
         "card5desc":"Probamos el proyecto en diferentes dispositivos y navegadores para garantizar su calidad. Realizamos las revisiones necesarias basadas en el feedback del cliente.",
         "card6title":"Lanzamiento",
-        "card6desc":"Implementamos el despliegue del sitio en un servicio de hosting conforme a tus requerimientos y aseguramos una transición sin problemas. Proporcionamos soporte post-lanzamiento para resolver cualquier problema que pueda surgir."
+        "card6desc":"Implementamos el despliegue del sitio en un servicio de hosting conforme a tus requerimientos y aseguramos una transición sin problemas. Proporcionamos soporte post-lanzamiento para resolver cualquier problema que pueda surgir.",
+        "card7title":"Entrega Final",
+        "card7desc":"Al finalizar, le entregaré una <strong>página web lista para usar</strong>. Como parte del servicio, incluiré:\n<br>• <strong>Un dominio y hosting gratuito durante 1 año</strong>:\n<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class='punto-rosa'>●</span> Un dominio es el nombre que tendrá su página en Internet (por ejemplo, <a href='https://www.buschfranco.com' target='_blank' style='color: #db6aed;'>www.buschfranco.com</a>). Es lo que sus clientes escribirán para encontrar su sitio.\n<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class='punto-rosa'>●</span> El hosting es el espacio en un servidor donde se guarda toda la información de su página para que esté disponible en Internet las 24 horas.\n<br>• <strong>Un Manual de uso</strong> para que pueda, por ejemplo, consultar cómo editar, eliminar o agregar algún servicio, entre otras cosas.\n<br>• <strong>Integración con Google Analytics</strong>:\n<br>&nbsp;&nbsp;&nbsp;&nbsp;Este servicio le permitirá gestionar el tráfico hacia su <strong>página web</strong>. Podrá conocer información como la ubicación de los usuarios, la cantidad de visitas, el tiempo promedio de sesión y mucho más.\n<br>• <strong>Integración con Google Ads</strong>:\n<br>&nbsp;&nbsp;&nbsp;&nbsp;Su <strong>página web</strong> estará lista para ser promocionada a través de campañas de Google Ads, facilitando la implementación de estrategias de marketing digital que impulsen la visibilidad de su negocio en Internet.",
+        "card8title":"Costo y Referencia",
+        "card8desc": "El precio del proyecto depende de la complejidad de la página. Como referencia, el costo para una página que presente los servicios de su negocio o información sobre su proyecto, información sobre usted y un formulario de contacto directo es de <strong>250 USD</strong>. Este costo incluye lo mencionado en la entrega final:<br>• <strong>Página Web</strong><br>• <strong>Dominio y hosting gratuito durante 1 año</strong>.<br>• <strong>Un manual de uso</strong>.<br>• <strong>Integración con Google Analytics</strong>.<br>• <strong>Integración con Google Ads</strong>."
     },
 
     "planes":{
@@ -84,20 +88,23 @@
     },
 
     "footer":{
-        "contactus": "<i class='fa-solid fa-envelope'></i> Contacto",
+        "contactus": "<i class='fas fa-envelope'></i> Contacto",
         "contactForm": "Formulario de Contacto",
-        "contactTel": "Movil: (+54) 11 3150-6458",
-        "contactMail": "Correo: francobusch130@gmail.com",
-        "planes": "<i class='fa-solid fa-briefcase'></i> Planes",
+        "contactTel": "(+54) 11 3150-6458",
+        "contactMail": "contacto@buschfranco.com",
+        "planes": "<i class='fas fa-cogs'></i> Servicios",
         "planesCorWeb": "Web Corporativa",
-        "planesLandind": "Landind Page",
+        "planesLandind": "Landing Page",
         "planesShop": "Tienda Online",
         "planesIntro": "Tipo Folleto/Presentación",
-        "whoWeAre": "Quienes somos?",
-        "howWeWork": "Como trabajamos tu Página Web",
+        "navigation": "<i class='fas fa-compass'></i> Navegación",
+        "whoWeAre": "Conóceme",
+        "howWeWork": "Cómo Trabajo",
         "packages": "Planes",
-        "whyWebSite": "Por qué una página web?",
-        "workProcess": "Proceso de trabajo",
+        "whyWebSite": "¿Por qué una web?",
+        "workProcess": "Proceso",
+        "location": "Palermo, Ciudad de Buenos Aires, Argentina",
+        "description": "Desarrollador Web Freelance especializado en soluciones digitales que impulsan tu negocio.",
         "agency": "© 2024 Franco Busch, Desarrollador Web"
     }
 }
